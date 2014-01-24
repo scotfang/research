@@ -1,0 +1,40 @@
+#  Causal structures.
+#  scotfang 1/14/2014
+
+def genSignature(nameList):
+    for name in nameList:
+        assert(type(name) == str)
+    sig = sorted(nameList)
+    return tuple(sig)
+
+class Fluent(object):
+    def __init__(self, fluentClass, fluentState, localFluents, globalFluents=None):
+        self.fluentClass = fluentClass
+        self.fluentState = fluentState
+        self.localFluents = localFluents
+        self.globalFluents = globalFluents
+
+        names = [ fluent.name for fluent in localFluents ]
+        if globalFluents:
+           names.extend([ fluent.name for fluent in globalFluents ])
+        self.signature = genSignature(names) 
+
+class CausalFunction(object):
+    def __init__(self, name, inputFluents, isAnd=True, timeWindow):
+        "timeWindow - Sliding window of time to evaluate occurence of all inputFluents"
+        self.name = name
+        self.inputFluents = inputFluents
+        self.isAnd = isAnd
+        self.relations = None
+
+    def addStochasticRelation(self, 
+            
+
+
+
+
+
+
+
+
+

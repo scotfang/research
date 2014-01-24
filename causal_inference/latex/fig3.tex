@@ -1,0 +1,87 @@
+\begin{tikzpicture}[scale=0.5,>=stealth]
+\scriptsize
+\fill [gray!20] (-6,-2.25) rectangle (-3,2);
+\drawAction{-5.5}{1.5}{0.25};\node at (-5.25,1.5) [label=right:Action] {};
+\drawHiddenFluent{-5.5}{0}{0.3};\node at (-5.25,0) [label=right:\parbox{1cm}{Hidden\\Fluent}] {};
+\drawCausalLink{-5.5}{-1.5}{0.25};\node at (-5.25,-1.5) [label=right:\parbox{1cm}{Causal\\Link}] {};
+\fill [gray!20] (4,-1) rectangle (8,-0.25);\fill [gray!20] (4,-2) rectangle (8,-1.25);
+\fill [gray!20] (10,-1) rectangle (14,-0.25);\fill [gray!20] (10,-2) rectangle (14,-1.25);
+\fill [cyan!20] (11.25,-1) rectangle (11.75,-0.25);\fill [cyan!20] (11.5,-2) rectangle (12.5,-1.25);
+\draw [cyan,very thick,dotted] (11.25,-1) -- (11.5,-1) -- (11.5,-0.25) -- (11.75,-0.25);
+\draw [cyan,very thick,dotted] (11.5,-1.25) -- (11.75,-1.25) -- (11.75,-2) -- (12.25,-2) -- (12.25,-1.25) -- (12.5,-1.25);
+\fill [cyan!20] (16,-1) rectangle (20,-0.25);\fill [cyan!20] (16,-2) rectangle (20,-1.25);
+\draw [cyan,very thick,dotted] (16,-1) -- (17.5,-1) -- (17.5,-0.25) -- (19,-0.25) -- (19,-1) -- (20,-1);
+\draw [cyan,very thick,dotted] (16,-1.25) -- (17.75,-1.25) -- (17.75,-2) -- (18.25,-2) -- (18.25,-1.25) -- (20,-1.25);
+\node at (0,2.5) [] {\bf (a) Input: Video/XML};\draw [->,very thick] (2.5,2.5) -- (3.5,2.5);
+\node at (6,2.5) [] {\bf (b) Event Parsing};\draw [->,very thick] (8.5,2.5) -- (9.5,2.5);
+\node at (12,2.5) [] {\bf (c) Causal Parsing};\draw [->,very thick] (14.5,2.5) -- (15.5,2.5);
+\node at (18,2.5) [] {\bf (d) Causal Completion};
+\node at (-0.75,0.25) [] {\includegraphics[width=.75in]{275}};
+\node at (-0.5,0) [] {\includegraphics[width=.75in]{275}};
+\node at (-0.25,-0.25) [] {\includegraphics[width=.75in]{275}};
+\node at (0,-0.5) [] {\includegraphics[width=.75in]{275}};
+%
+\drawHiddenFluent{2.75}{-0.5}{0.3};\node at (4.35,-0.4) [label=left:{\tiny ON}] {};\node at (4.35,-0.9) [label=left:{\tiny OFF}] {};\node at (2.75,0) [] {\tiny Monitor};
+\drawHiddenFluent{2.75}{-2}{0.3};\node at (4.35,-1.4) [label=left:{\tiny THIRSTY}] {};\node at (4.35,-1.9) [label=left:{\tiny NOT}] {};\node at (2.75,-2.5) [] {\tiny Agent};
+\node at (6,-0.65) [] {UNKNOWN};
+\node at (6,-1.65) [] {UNKNOWN};
+%
+\draw [gray,thick] (6,2) -- (5,1.25);
+\draw [gray,thick] (6,2) -- (6,1.25);
+\draw [gray,thick] (6,2) -- (7,1.25);
+\draw [gray,thick] (5,1.25) -- (4.5,0.5);
+\draw [gray,thick] (5,1.25) -- (5.5,0.5);
+\drawAction{6}{2}{0.25};
+\drawAction{5}{1.25}{0.25};
+\drawAction{6}{1.25}{0.25};
+\drawAction{7}{1.25}{0.25};
+\drawAction{4.5}{0.5}{0.25};
+\drawAction{5.5}{0.5}{0.25};
+\node at (6,0) [] {\tiny Use Keyboard};
+\node at (6.5,0.75) [] {\tiny Drink};
+\draw [thick] (4,-2.5) -- (5,-2.5);
+\draw [->,thick] (6.5,-2.5) -- (8,-2.5);
+\node at (5.75,-2.5) [] {Time};
+%
+\draw [gray,thick] (12,2) -- (11,1.25);
+\draw [gray,thick] (12,2) -- (12,1.25);
+\draw [gray,thick] (12,2) -- (13,1.25);
+\draw [gray,thick] (11,1.25) -- (10.5,0.5);
+\draw [gray,thick] (11,1.25) -- (11.5,0.5);
+\drawAction{12}{2}{0.25};
+\drawAction{11}{1.25}{0.25};
+\drawAction{12}{1.25}{0.25};
+\drawAction{13}{1.25}{0.25};
+\drawAction{10.5}{0.5}{0.25};
+\drawAction{11.5}{0.5}{0.25};
+\draw [->,red,very thick] (11.5,0.25) -- (11.5,-0.25);
+\draw [->,red,very thick] (11.75,-1.25) [out=90,in=-90] to (12,1);
+\draw [->,red,very thick] (12,1) [out=-90,in=90] to (12.25,-1.25);
+\draw [thick] (10,-2.5) -- (11,-2.5);
+\draw [->,thick] (12.5,-2.5) -- (14,-2.5);
+\node at (11.75,-2.5) [] {Time};
+%
+\draw [gray,thick] (18,2) -- (17,1.25);
+\draw [gray,thick] (18,2) -- (18,1.25);
+\draw [gray,thick] (18,2) -- (19,1.25);
+\draw [gray,thick] (17,1.25) -- (16.5,0.5);
+\draw [gray,thick] (17,1.25) -- (17.5,0.5);
+\drawAction{18}{2}{0.25};
+\drawAction{17}{1.25}{0.25};
+\drawAction{18}{1.25}{0.25};
+\drawAction{19}{1.25}{0.25};
+\drawAction{16.5}{0.5}{0.25};
+\drawAction{17.5}{0.5}{0.25};
+\draw [->,red,very thick] (17.5,0.25) -- (17.5,-0.25);
+\draw [->,red,very thick] (17.75,-1.25) [out=90,in=-90] to (18,1);
+\draw [->,red,very thick] (18,1) [out=-90,in=90] to (18.25,-1.25);
+\draw [thick] (16,-2.5) -- (17,-2.5);
+\draw [->,thick] (18.5,-2.5) -- (20,-2.5);
+\node at (17.75,-2.5) [] {Time};
+%
+\draw (20.25,2.25) -- (20.5,2.25) -- (20.5,0.25) -- (20.25,0.25);
+\draw (20.25,0) -- (20.5,0) -- (20.5,-2) -- (20.25,-2);
+%
+\node at (21,1.25) [] {\begin{sideways}Agent Actions\end{sideways}};
+\node at (21,-1.25) [] {\begin{sideways}Fluents\end{sideways}};
+\end{tikzpicture}

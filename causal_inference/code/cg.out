@@ -1,0 +1,210 @@
+--PREPPING DEMO--
+causal_forest
+[{'children': [{'children': [{'node_type': 'leaf',
+                              'symbol': 'light_on',
+                              'symbol_type': 'prev_fluent'},
+                             {'node_type': 'leaf',
+                              'symbol': 'E1_START',
+                              'symbol_type': 'nonevent',
+                              'timeout': 10}],
+                'node_type': 'and',
+                'probability': 0.3},
+               {'children': [{'node_type': 'leaf',
+                              'symbol': 'light_off',
+                              'symbol_type': 'prev_fluent'},
+                             {'node_type': 'leaf',
+                              'symbol': 'E1_START',
+                              'symbol_type': 'event',
+                              'timeout': 10}],
+                'node_type': 'and',
+                'probability': 0.7}],
+  'node_type': 'root',
+  'symbol': 'light_on',
+  'symbol_type': 'fluent'},
+ {'children': [{'children': [{'node_type': 'leaf',
+                              'symbol': 'light_off',
+                              'symbol_type': 'prev_fluent'},
+                             {'node_type': 'leaf',
+                              'symbol': 'E1_START',
+                              'symbol_type': 'nonevent',
+                              'timeout': 10}],
+                'node_type': 'and',
+                'probability': 0.3},
+               {'children': [{'node_type': 'leaf',
+                              'symbol': 'light_on',
+                              'symbol_type': 'prev_fluent'},
+                             {'node_type': 'leaf',
+                              'symbol': 'E1_START',
+                              'symbol_type': 'event',
+                              'timeout': 10}],
+                'node_type': 'and',
+                'probability': 0.7}],
+  'node_type': 'root',
+  'symbol': 'light_off',
+  'symbol_type': 'fluent'},
+ {'children': [{'node_type': 'leaf',
+                'probability': 0.6,
+                'symbol': 'dooropen_on',
+                'symbol_type': 'prev_fluent'},
+               {'children': [{'node_type': 'leaf',
+                              'symbol': 'dooropen_off',
+                              'symbol_type': 'prev_fluent'},
+                             {'node_type': 'leaf',
+                              'symbol': 'door_open_outside',
+                              'symbol_type': 'event',
+                              'timeout': 20}],
+                'node_type': 'and',
+                'probability': 0.2},
+               {'children': [{'node_type': 'leaf',
+                              'symbol': 'dooropen_off',
+                              'symbol_type': 'prev_fluent'},
+                             {'node_type': 'leaf',
+                              'symbol': 'door_open_inside',
+                              'symbol_type': 'event',
+                              'timeout': 20}],
+                'node_type': 'and',
+                'probability': 0.2}],
+  'node_type': 'root',
+  'symbol': 'dooropen_on',
+  'symbol_type': 'fluent'},
+ {'children': [{'node_type': 'leaf',
+                'probability': 0.6,
+                'symbol': 'dooropen_off',
+                'symbol_type': 'prev_fluent'},
+               {'children': [{'node_type': 'leaf',
+                              'symbol': 'dooropen_on',
+                              'symbol_type': 'prev_fluent'},
+                             {'node_type': 'leaf',
+                              'symbol': 'door_close_outside',
+                              'symbol_type': 'event',
+                              'timeout': 20}],
+                'node_type': 'and',
+                'probability': 0.2},
+               {'children': [{'node_type': 'leaf',
+                              'symbol': 'dooropen_on',
+                              'symbol_type': 'prev_fluent'},
+                             {'node_type': 'leaf',
+                              'symbol': 'door_close_inside',
+                              'symbol_type': 'event',
+                              'timeout': 20}],
+                'node_type': 'and',
+                'probability': 0.2}],
+  'node_type': 'root',
+  'symbol': 'dooropen_off',
+  'symbol_type': 'fluent'}]
+---------------------------------
+fluent_parses
+{1: {'fluent_3': 0.511,
+     'fluent_4': 0.916,
+     'fluent_5': 1.61,
+     'fluent_6': 0.105,
+     'light': 0.105},
+ 6: {'fluent_6': 10.0, 'light': 10.0},
+ 16: {'fluent_4': 1.2, 'light': 10.0},
+ 17: {'fluent_3': 10.0, 'fluent_4': 2.3},
+ 400: {'fluent_5': 0.223, 'light': 0.105}}
+---------------------------------
+temporal_parses
+{5: {'E1_START': {'agent': 'uuid4', 'energy': 0.105}},
+ 6: {'E1_END': {'agent': 'uuid4', 'energy': 0.105},
+     'E5_START': {'agent': 'uuid2', 'energy': 1.2}},
+ 7: {'E2_START': {'agent': 'uuid1', 'energy': 0.511},
+     'E5_END': {'agent': 'uuid2', 'energy': 1.2}},
+ 10: {'E3_START': {'agent': 'uuid3', 'energy': 0.916}},
+ 15: {'E1_START': {'agent': 'uuid9', 'energy': 0.223}},
+ 19: {'E1_END': {'agent': 'uuid9', 'energy': 0.223}},
+ 45: {'E3_END': {'agent': 'uuid3', 'energy': 0.916}},
+ 450: {'E1_START': {'agent': 'uuid3', 'energy': 0.916}},
+ 455: {'E1_END': {'agent': 'uuid3', 'energy': 0.916}}}
+---------------------------------
+--RUNNING DEMO--
+dooropen
+---------------------------------
+           0	 0.700	13.009	initial	5	('dooropen_on', [('?', ['dooropen_off', 'door_open_outside'])])	[]
+           0	 0.700	13.009	initial	6	('dooropen_on', [('?', ['dooropen_off', 'door_open_inside'])])	[]
+           0	 0.700	13.009	initial	8	('dooropen_off', [('?', ['dooropen_on', 'door_close_outside'])])	[]
+           0	 0.700	13.009	initial	9	('dooropen_off', [('?', ['dooropen_on', 'door_close_inside'])])	[]
+---------------------------------
+Chain Results
+[[(0, 5)], 13.0094379124341]
+[[(0, 6)], 13.0094379124341]
+[[(0, 8)], 13.0094379124341]
+[[(0, 9)], 13.0094379124341]
+---------------------------------
+light
+---------------------------------
+           0	 0.700	 2.604	initial	0	('light_on', [('?', ['light_on', 'NOT E1_START'])])	[]
+           0	 0.700	 2.604	initial	2	('light_off', [('?', ['light_off', 'NOT E1_START'])])	[]
+           0	 0.700	11.757	initial	1	('light_on', [('?', ['light_off', 'E1_START'])])	[]
+           0	 0.700	11.757	initial	3	('light_off', [('?', ['light_on', 'E1_START'])])	[]
+           1	 0.700	 2.604	fluent_changed	0	('light_on', [('?', ['light_on', 'NOT E1_START'])])	[]
+           1	 0.700	 2.604	fluent_changed	2	('light_off', [('?', ['light_off', 'NOT E1_START'])])	[]
+           1	 0.700	11.757	fluent_changed	1	('light_on', [('?', ['light_off', 'E1_START'])])	[]
+           1	 0.700	11.757	fluent_changed	3	('light_off', [('?', ['light_on', 'E1_START'])])	[]
+           6	 0.700	 1.862	fluent_changed	1	('light_on', [('?', ['light_off', 'E1_START'])])	['uuid4']
+           6	 0.700	 1.862	fluent_changed	3	('light_off', [('?', ['light_on', 'E1_START'])])	['uuid4']
+           6	 0.700	 4.910	fluent_changed	0	('light_on', [('?', ['light_on', 'NOT E1_START'])])	['uuid4']
+           6	 0.700	 4.910	fluent_changed	2	('light_off', [('?', ['light_off', 'NOT E1_START'])])	['uuid4']
+          16	 0.700	 1.980	fluent_changed	1	('light_on', [('?', ['light_off', 'E1_START'])])	['uuid9']
+          16	 0.700	 1.980	fluent_changed	3	('light_off', [('?', ['light_on', 'E1_START'])])	['uuid9']
+          16	 0.700	 4.214	fluent_changed	0	('light_on', [('?', ['light_on', 'NOT E1_START'])])	['uuid9']
+          16	 0.700	 4.214	fluent_changed	2	('light_off', [('?', ['light_off', 'NOT E1_START'])])	['uuid9']
+         400	 0.700	 2.604	fluent_changed	0	('light_on', [('?', ['light_on', 'NOT E1_START'])])	[]
+         400	 0.700	 2.604	fluent_changed	2	('light_off', [('?', ['light_off', 'NOT E1_START'])])	[]
+         400	 0.700	11.757	fluent_changed	1	('light_on', [('?', ['light_off', 'E1_START'])])	[]
+         400	 0.700	11.757	fluent_changed	3	('light_off', [('?', ['light_on', 'E1_START'])])	[]
+         460	 0.700	 2.673	timeout	1	('light_on', [('?', ['light_off', 'E1_START'])])	['uuid3']
+         460	 0.700	 2.673	timeout	3	('light_off', [('?', ['light_on', 'E1_START'])])	['uuid3']
+         460	 0.700	 3.115	timeout	0	('light_on', [('?', ['light_on', 'NOT E1_START'])])	['uuid3']
+         460	 0.700	 3.115	timeout	2	('light_off', [('?', ['light_off', 'NOT E1_START'])])	['uuid3']
+---------------------------------
+Chain Results
+[[(0, 0), (1, 0), (6, 3), (16, 1), (400, 0), (460, 3)], 14.326079447675117]
+[[(0, 2), (1, 2), (6, 1), (16, 3), (400, 2), (460, 1)], 14.326079447675117]
+[[(0, 0), (1, 0), (6, 3), (16, 1), (400, 0), (460, 0)], 14.768396800046714]
+[[(0, 2), (1, 2), (6, 1), (16, 3), (400, 2), (460, 2)], 14.768396800046714]
+[[(0, 0), (1, 0), (6, 3), (16, 2), (400, 2), (460, 1)], 16.560389631911846]
+[[(0, 2), (1, 2), (6, 1), (16, 0), (400, 0), (460, 3)], 16.560389631911846]
+[[(0, 0), (1, 0), (6, 3), (16, 2), (400, 2), (460, 2)], 17.002706984283442]
+[[(0, 2), (1, 2), (6, 1), (16, 0), (400, 0), (460, 0)], 17.002706984283442]
+[[(0, 0), (1, 0), (6, 0), (16, 3), (400, 2), (460, 1)], 17.37421290408463]
+[[(0, 2), (1, 2), (6, 2), (16, 1), (400, 0), (460, 3)], 17.37421290408463]
+[[(0, 0), (1, 0), (6, 0), (16, 3), (400, 2), (460, 2)], 17.816530256456225]
+[[(0, 2), (1, 2), (6, 2), (16, 1), (400, 0), (460, 0)], 17.816530256456225]
+[[(0, 0), (1, 0), (6, 0), (16, 0), (400, 0), (460, 3)], 19.608523088321355]
+[[(0, 2), (1, 2), (6, 2), (16, 2), (400, 2), (460, 1)], 19.608523088321355]
+[[(0, 0), (1, 0), (6, 0), (16, 0), (400, 0), (460, 0)], 20.050840440692955]
+[[(0, 2), (1, 2), (6, 2), (16, 2), (400, 2), (460, 2)], 20.050840440692955]
+[[(0, 0), (1, 0), (6, 3), (16, 1), (400, 3), (460, 1)], 23.478736186327538]
+[[(0, 2), (1, 2), (6, 1), (16, 3), (400, 1), (460, 3)], 23.478736186327538]
+[[(0, 0), (1, 3), (6, 1), (16, 3), (400, 2), (460, 1)], 23.478736186327545]
+[[(0, 2), (1, 1), (6, 3), (16, 1), (400, 0), (460, 3)], 23.478736186327545]
+---------------------------------
+{'symbol_type': 'fluent', 'node_type': 'root', 'id': 5, 'symbol': 'dooropen_on', 'children': ({'node_type': 'and', 'children': ({'symbol_type': 'prev_fluent', 'node_type': 'leaf', 'symbol': 'dooropen_off'}, {'symbol_type': 'event', 'node_type': 'leaf', 'symbol': 'door_open_outside', 'timeout': 20}), 'probability': 0.2},)}
+{'symbol': 'light_on', 'children': ({'node_type': 'and', 'children': ({'symbol_type': 'prev_fluent', 'node_type': 'leaf', 'symbol': 'light_on'}, {'symbol_type': 'nonevent', 'node_type': 'leaf', 'symbol': 'E1_START', 'timeout': 10}), 'probability': 0.3},), 'node_type': 'root', 'frame': 450, 'symbol_type': 'fluent', 'id': 0}
+{'symbol': 'light_on', 'children': ({'node_type': 'and', 'children': ({'symbol_type': 'prev_fluent', 'node_type': 'leaf', 'symbol': 'light_on'}, {'symbol_type': 'nonevent', 'node_type': 'leaf', 'symbol': 'E1_START', 'timeout': 10}), 'probability': 0.3},), 'node_type': 'root', 'frame': 450, 'symbol_type': 'fluent', 'id': 0}
+{'symbol': 'light_off', 'children': ({'node_type': 'and', 'children': ({'symbol_type': 'prev_fluent', 'node_type': 'leaf', 'symbol': 'light_on'}, {'symbol_type': 'event', 'node_type': 'leaf', 'symbol': 'E1_START', 'timeout': 10}), 'probability': 0.7},), 'node_type': 'root', 'frame': 450, 'symbol_type': 'fluent', 'id': 3}
+{'symbol': 'light_on', 'children': ({'node_type': 'and', 'children': ({'symbol_type': 'prev_fluent', 'node_type': 'leaf', 'symbol': 'light_off'}, {'symbol_type': 'event', 'node_type': 'leaf', 'symbol': 'E1_START', 'timeout': 10}), 'probability': 0.7},), 'node_type': 'root', 'frame': 450, 'symbol_type': 'fluent', 'id': 1}
+{'symbol': 'light_on', 'children': ({'node_type': 'and', 'children': ({'symbol_type': 'prev_fluent', 'node_type': 'leaf', 'symbol': 'light_on'}, {'symbol_type': 'nonevent', 'node_type': 'leaf', 'symbol': 'E1_START', 'timeout': 10}), 'probability': 0.3},), 'node_type': 'root', 'frame': 450, 'symbol_type': 'fluent', 'id': 0}
+{'symbol': 'light_off', 'children': ({'node_type': 'and', 'children': ({'symbol_type': 'prev_fluent', 'node_type': 'leaf', 'symbol': 'light_on'}, {'symbol_type': 'event', 'node_type': 'leaf', 'symbol': 'E1_START', 'timeout': 10}), 'probability': 0.7},), 'node_type': 'root', 'frame': 450, 'symbol_type': 'fluent', 'id': 3}
+---------------------------------
+Lowest energy Chain
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="13.0094379124" fluent="dooropen" frame="0" new_value="on"/>
+		<fluent_change energy="14.3260794477" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="14.3260794477" fluent="light" frame="6" new_value="off" old_value="on"/>
+		<fluent_change energy="14.3260794477" fluent="light" frame="16" new_value="on" old_value="off"/>
+		<fluent_change energy="14.3260794477" fluent="light" frame="460" new_value="off" old_value="on"/>
+	</fluent_changes>
+	<actions>
+		<event action="door_open_outside" energy="13.0094379124" frame="0"/>
+		<event action="E1_START" energy="14.3260794477" frame="6"/>
+		<event action="E1_START" energy="14.3260794477" frame="16"/>
+		<event action="E1_START" energy="14.3260794477" frame="460"/>
+	</actions>
+</temporal>
+
+---------------------------------
+--DEMO COMPLETE-- ;D

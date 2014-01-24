@@ -1,0 +1,34 @@
+# Causal Parse Objects 
+##  Scot Fang 1/14/2014
+
+from copy import deepcopy
+
+class FluentChange(object):
+    def __init__(self, fluentName, changeEnergy):
+        self.name = fluentName
+        self.energy = changeEnergy
+
+class FluentChangeFrames(object):
+    def __init__(self):
+        self.frames = {}
+    def emptyFrame(frameNumber):
+        return frameNumber not in self.frames
+    def addFluentChange(self, frameNumber, fluentChange):
+        if emptyFrame(frameNumber):
+            self.frames[frameNumber] = []
+        self.frames[frameNumber].append(fluentChange)
+    def getFluentChangesPerFrame(self, frameNumber):
+        if emptyFrame(frameNumber): return None
+        return deepcopy(self.frames[frameNumber])
+    def getFluentChangeEnergy(self, frameNumber, fluentName)
+        if emptyFrame(frameNumber): return None
+        fluentList = self.frames[frameNumber]
+        energy = None
+        for fluentChange in fluentList: 
+            #NOTE Change fluentList to fluentDict if we have many fluents in one frame
+            if fluentChange.name == fluentName:
+                return fluentChange.energy
+        return None
+
+def json2FluentChangeFrames(json):
+    "Convert's amy's fluent_parse JSON to FluentChangeFrames Object."

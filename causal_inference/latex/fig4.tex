@@ -1,0 +1,33 @@
+\begin{tikzpicture}[scale=0.5,>=stealth]
+\scriptsize
+\node at (1,7.5) [] {\bf (a) Transition Between States};
+\node at (12.5,7.5) [] {\bf (b) Transition Between Parse Graphs};
+\node at (22,7.5) [] {\bf (c) Duration Histogram};
+%
+\drawFluent{1}{1}{0.5};\node at (1.5,1) [label=right:{$F\!=$OFF}] {};\node at (-0.5,0.5) [label=below:{$pg_{\text{OFF}}^{\text{OFF}}$}] {};
+\drawFluent{1}{5}{0.5};\node at (1.5,5) [label=right:{$F\!=$ON}] {};\node at (-0.5,5.5) [label=above:{$pg_{\text{ON}}^{\text{ON}}$}] {};
+\draw [->,thick] (1.5,4.5) [out=-75,in=75] to (1.5,1.5);\node at (0,3) [label=left:{$pg_{\text{OFF}}^{\text{ON}}$}] {};
+\draw [->,thick] (0.5,1.5) [out=105,in=-105] to (0.5,4.5);\node at (2,3) [label=right:{$pg_{\text{ON}}^{\text{OFF}}$}] {};
+\draw [->,thick,shift={(1,0)}] (0,0)+(45:6mm) arc (45:-225:6mm);
+\draw [->,thick,shift={(1,6)}] (0,0)+(225:6mm) arc (225:-45:6mm);
+%
+\draw [->,very thick] (4.5,3) -- (6.5,3);
+%
+\draw [->,thick,violet] (15,5) -- (12,5);\node at (13.5,5) [label=above:{\color{violet}$p_2$}] {};
+\draw [->,thick,green] (11,1) -- (14,1);\node at (12.5,1) [label=below:{\color{green}$p_3$}] {};
+\draw [->,thick,blue] (11,4) -- (11,1.5);\node at (11,2.75) [label=left:{\color{blue}$p_1$}] {};
+\draw [->,thick,red] (15,2) -- (15,4.5);\node at (15,3.25) [label=right:{\color{red}$p_4$}] {};
+\draw [->,thick,green] (11.5,1.25) -- (14.75,4.5);\node at (13.5,2.5) [rotate=45] {\color{green}$1\!-\!p_3$};
+\draw [->,thick,violet] (14.5,4.75) -- (11.25,1.5);\node at (12.5,3.5) [rotate=45] {\color{violet}$1\!-\!p_2$};
+%
+\fill [gray!20] (7,7) rectangle (12,4);
+\fill [gray!20] (14,2) rectangle (19,-1);
+\drawTransitPP{11}{5}{0.5};\draw [->,thick,shift={(11,6)},blue] (0,0)+(225:6mm) arc (225:-45:6mm);\node at (9,5.5) [label=above:{$\{pg_{\text{ON}}^{\text{ON}}\}$}] {};\node at (8.75,5) [] {$\tau\sim p_{pg_{\text{ON}}^{\text{ON}}}(\tau)$};
+\drawTransitPN{11}{1}{0.5};\node at (9.5,1) [label=below:{$\{pg_{\text{ON}}^{\text{OFF}}\}$}] {};
+\drawTransitNN{15}{1}{0.5};\draw [->,thick,shift={(15,0)},red] (0,0)+(45:6mm) arc (45:-225:6mm);\node at (17,0.5) [label=below:{$\{pg_{\text{OFF}}^{\text{OFF}}\}$}] {};\node at (17.25,1) [] {$\tau\sim p_{pg_{\text{OFF}}^{\text{OFF}}}(\tau)$};
+\drawTransitNP{15}{5}{0.5};\node at (16.5,5) [label=above:{$\{pg_{\text{OFF}}^{\text{ON}}\}$}] {};
+%
+\draw [->,thick] (20,0) -- (25,0);\node at (25,0) [label=below:$\tau$] {};
+\draw [->,thick] (20,0) -- (20,5);\node at (20,5) [label=right:$p(\tau)$] {};
+\draw [very thick,blue] (20,0.25) -- (21,0.25) -- (21,4) -- (21.5,4) -- (21.5,0.25) -- (22,0.25) -- (22,3) -- (22.5,3) -- (22.5,0.25) -- (23,0.25) -- (23,2) -- (23.5,2) -- (23.5,0.25) -- (24.5,0.25);
+\end{tikzpicture}

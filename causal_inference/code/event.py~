@@ -1,0 +1,34 @@
+# Event Objects 
+##  scotfang 1/14/2014
+
+from copy import deepcopy
+
+class Event(object):
+    def __init__(self, name, agent, energy):
+        self.name = name
+        self.agent = agent
+        self.energy = energy
+
+class EventFrames(object):
+    "Stores a list of events per frameNumber"
+    def __init__(self):
+        self.frames = {}
+    def emptyFrame(frameNumber):
+        return frameNumber not in self.frames
+    def addEvent(self, frameNumber, event):
+        if emptyFrame(frameNumber):
+            self.frames[frameNumber] = []
+        self.frames[frameNumber].append(event)
+    def getEventsInFrame(self, frameNumber):
+        "Pass by value"
+        if emptyFrame(frameNumber): return None
+        return deepcopy(self.frames[frameNumber]) 
+    def getEventEnergy(self, frameNumber, eventName)
+        if emptyFrame(frameNumber): return None
+        eventList = self.frames[frameNumber]
+        energy = None
+        for event in eventList: 
+            #NOTE  eventList to eventDict if we have many events in one frame
+            if event.name == eventName:
+                return event.energy
+        return None
