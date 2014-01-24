@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<temporal>
+        <fluent_changes>
+                <fluent_change fluent="[LIGHT_ON]" frame="0" new_value="on" old_value="on"/>
+                <fluent_change fluent="[LIGHT_ON]" frame="1345" new_value="on" old_value="on"/>
+                <fluent_change fluent="[LIGHT_ON]" frame="1347" new_value="on" old_value="on"/>
+                <fluent_change fluent="[LIGHT_ON]" frame="1348" new_value="on" old_value="on"/>
+                <fluent_change fluent="[LIGHT_ON]" frame="1352" new_value="on" old_value="on"/>
+                <fluent_change fluent="[LIGHT_ON]" frame="10333" new_value="on" old_value="on"/>
+                <fluent_change fluent="[LIGHT_ON]" frame="10335" new_value="on" old_value="on"/>
+                <fluent_change fluent="[LIGHT_ON]" frame="11877" new_value="on" old_value="on"/>
+                <fluent_change fluent="[LIGHT_ON]" frame="11881" new_value="on" old_value="on"/>
+                <fluent_change fluent="[LIGHT_ON]" frame="11941" new_value="on" old_value="on"/>
+                <fluent_change fluent="[LIGHT_ON]" frame="11949" new_value="on" old_value="on"/>
+                <fluent_change fluent="PHONE_ACTIVE" frame="0" new_value="off" old_value="off"/>
+                <fluent_change fluent="PHONE_ACTIVE" frame="2981" new_value="on" old_value="off"/>
+                <fluent_change fluent="PHONE_ACTIVE" frame="3007" new_value="off" old_value="on"/>
+                <fluent_change fluent="PHONE_ACTIVE" frame="5443" new_value="on" old_value="off"/>
+                <fluent_change fluent="PHONE_ACTIVE" frame="6160" new_value="off" old_value="on"/>
+                <fluent_change fluent="PHONE_ACTIVE" frame="11214" new_value="on" old_value="off"/>
+                <fluent_change fluent="PHONE_ACTIVE" frame="11282" new_value="off" old_value="on"/>
+                <fluent_change fluent="PHONE_ACTIVE" frame="11336" new_value="on" old_value="off"/>
+                <fluent_change fluent="PHONE_ACTIVE" frame="11486" new_value="off" old_value="on"/>
+                <fluent_change fluent="WATER_STREAM" frame="0" new_value="off" old_value="off"/>
+                <fluent_change fluent="WATER_STREAM" frame="756" new_value="on" old_value="off"/>
+                <fluent_change fluent="WATER_STREAM" frame="1207" new_value="off" old_value="on"/>
+                <fluent_change fluent="WATER_STREAM" frame="7048" new_value="on" old_value="off"/>
+                <fluent_change fluent="WATER_STREAM" frame="7204" new_value="off" old_value="on"/>
+                <fluent_change fluent="WATER_STREAM" frame="8708" new_value="on" old_value="off"/>
+                <fluent_change fluent="WATER_STREAM" frame="8713" new_value="off" old_value="on"/>
+                <fluent_change fluent="WATER_STREAM" frame="8714" new_value="on" old_value="off"/>
+                <fluent_change fluent="WATER_STREAM" frame="8873" new_value="off" old_value="on"/>
+                <fluent_change fluent="WATER_STREAM" frame="9898" new_value="on" old_value="off"/>
+                <fluent_change fluent="WATER_STREAM" frame="10072" new_value="off" old_value="on"/>
+                <fluent_change fluent="AGENT_HAS_TRASH" frame="0" new_value="off" old_value="off"/>
+                <fluent_change fluent="AGENT_HAS_TRASH" frame="2896" new_value="on" old_value="on"/>
+                <fluent_change fluent="AGENT_HAS_TRASH" frame="2980" new_value="off" old_value="on"/>
+                <fluent_change fluent="AGENT_HAS_TRASH" frame="3232" new_value="on" old_value="on"/>
+                <fluent_change fluent="AGENT_HAS_TRASH" frame="3750" new_value="off" old_value="on"/>
+                <fluent_change fluent="AGENT_HAS_TRASH" frame="8873" new_value="on" old_value="on"/>
+                <fluent_change fluent="AGENT_HAS_TRASH" frame="8905" new_value="off" old_value="on"/>
+                <fluent_change fluent="AGENT_HAS_TRASH" frame="11487" new_value="on" old_value="on"/>
+                <fluent_change fluent="AGENT_HAS_TRASH" frame="11503" new_value="off" old_value="on"/>
+                <fluent_change fluent="TRASH_MORE" frame="0" new_value="off" old_value="off"/>
+                <fluent_change fluent="TRASH_MORE" frame="2980" new_value="on" old_value="off"/>
+                <fluent_change fluent="TRASH_MORE" frame="2981" new_value="off" old_value="on"/>
+                <fluent_change fluent="TRASH_MORE" frame="3338" new_value="on" old_value="off"/>
+                <fluent_change fluent="TRASH_MORE" frame="3339" new_value="off" old_value="on"/>
+                <fluent_change fluent="TRASH_MORE" frame="8905" new_value="on" old_value="off"/>
+                <fluent_change fluent="TRASH_MORE" frame="8906" new_value="off" old_value="on"/>
+        </fluent_changes>
+</temporal>

@@ -1,0 +1,13 @@
+temporal_parses = {
+	1822: { "drink_START": {"energy": 0.158541, "agent": "uuid1"} },
+	1848: { "drink_END": {"energy": 0.158541, "agent": "uuid1"} },
+	1849: { "throwtrash_START": {"energy": 0.000000, "agent": "uuid1"} },
+	1916: { "throwtrash_END": {"energy": 0.000000, "agent": "uuid1"} },
+	1919: { "pressbutton_START": {"energy": 0.417671, "agent": "uuid1"} },
+	1932: { "pressbutton_END": {"energy": 0.417671, "agent": "uuid1"} },
+	1933: { "standing_START": {"energy": 1.413505, "agent": "uuid1"} },
+	1937: { "standing_END": {"energy": 1.413505, "agent": "uuid1"} },
+	1938: { "drink_START": {"energy": 1.186066, "agent": "uuid1"} },
+	1949: { "drink_END": {"energy": 1.186066, "agent": "uuid1"} },
+	1950: { "standing_START": {"energy": 1.726883, "agent": "uuid1"}, "standing_END": {"energy": 1.726883, "agent": "uuid1"} },
+ },

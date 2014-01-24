@@ -1,0 +1,106 @@
+[LIGHT_ON]
+---------------------------------
+[[(0, 0), (1345, 0), (1347, 0), (1348, 0), (1352, 0), (10333, 0), (10335, 0), (11877, 0), (11881, 0), (11941, 0), (11949, 0)], 111.23866313341587]
+[[(0, 0), (1345, 0), (1347, 0), (1348, 0), (1352, 0), (10333, 0), (10335, 0), (11877, 0), (11881, 0), (11941, 3), (11949, 1)], 112.45505845774035]
+[[(0, 0), (1345, 0), (1347, 0), (1348, 0), (1352, 0), (10333, 0), (10335, 0), (11877, 0), (11881, 0), (11941, 3), (11949, 2)], 112.45510385870072]
+[[(0, 0), (1345, 0), (1347, 0), (1348, 0), (1352, 0), (10333, 0), (10335, 0), (11877, 0), (11881, 0), (11941, 0), (11949, 3)], 132.04954794867183]
+---------------------------------
+PHONE_ACTIVE
+---------------------------------
+[[(0, 18), (2981, 17), (3007, 19), (5443, 17), (6160, 19), (11214, 17), (11282, 19), (11336, 17), (11486, 19)], 26.660487926046176]
+[[(0, 18), (2981, 17), (3007, 19), (5443, 17), (6160, 19), (11214, 17), (11282, 19), (11336, 18), (11486, 18)], 35.44413800268205]
+[[(0, 18), (2981, 17), (3007, 19), (5443, 17), (6160, 19), (11214, 17), (11282, 19), (11336, 17), (11486, 16)], 36.66048792604617]
+[[(0, 18), (2981, 17), (3007, 19), (5443, 17), (6160, 19), (11214, 17), (11282, 19), (11336, 18), (11486, 17)], 46.25502281793801]
+---------------------------------
+WATER_STREAM
+---------------------------------
+[[(0, 6), (756, 5), (1207, 7), (7048, 5), (7204, 7), (8708, 5), (8713, 7), (8714, 5), (8873, 7), (9898, 5), (10072, 7)], 32.720185745434634]
+[[(0, 6), (756, 5), (1207, 7), (7048, 5), (7204, 7), (8708, 5), (8713, 7), (8714, 5), (8873, 7), (9898, 6), (10072, 6)], 41.503835822070506]
+[[(0, 6), (756, 5), (1207, 7), (7048, 5), (7204, 7), (8708, 5), (8713, 7), (8714, 5), (8873, 7), (9898, 5), (10072, 4)], 42.720185745434634]
+[[(0, 6), (756, 5), (1207, 7), (7048, 5), (7204, 7), (8708, 5), (8713, 7), (8714, 5), (8873, 7), (9898, 6), (10072, 5)], 52.31472063732647]
+---------------------------------
+AGENT_HAS_TRASH
+---------------------------------
+[[(0, 24), (2980, 27), (3750, 26), (8905, 26), (11503, 26)], 10.465917506641208]
+[[(0, 24), (2980, 27), (3750, 26), (8905, 25), (11503, 27)], 20.465826704720467]
+[[(0, 24), (2980, 27), (3750, 26), (8905, 26), (11503, 25)], 20.465872105680837]
+[[(0, 24), (2980, 27), (3750, 26), (8905, 25), (11503, 24)], 30.465826704720463]
+---------------------------------
+AGENT_THIRST
+---------------------------------
+[[(0, 20), (756, 20), (1207, 23), (7048, 21), (7204, 23), (8708, 21), (8713, 23), (8714, 21), (8873, 23), (9898, 21), (10072, 23)], 32.720231146395]
+[[(0, 20), (756, 20), (1207, 23), (7048, 21), (7204, 23), (8708, 21), (8713, 23), (8714, 21), (8873, 23), (9898, 21), (10072, 20)], 42.720231146395]
+[[(0, 20), (756, 20), (1207, 23), (7048, 21), (7204, 23), (8708, 21), (8713, 23), (8714, 21), (8873, 20), (9898, 23), (10072, 21)], 62.720231146395]
+---------------------------------
+TRASH_MORE
+---------------------------------
+[[(0, 10), (2980, 9), (3338, 8), (8905, 8)], 8.859743220348825]
+[[(0, 10), (2980, 9), (3338, 11), (8905, 9)], 18.45427811224066]
+[[(0, 10), (2980, 9), (3338, 8), (8905, 11)], 18.45427811224066]
+[[(0, 10), (2980, 9), (3338, 11), (8905, 10)], 28.048813004132498]
+---------------------------------
+TRASH_LESS
+---------------------------------
+[[(0, 14)], 1.9108710247263612]
+[[(0, 15)], 1.9108710247263612]
+[[(0, 12)], 12.316290731874155]
+[[(0, 13)], 12.316290731874155]
+---------------------------------
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change fluent="[LIGHT_ON]" frame="0" new_value="on" old_value="on"/>
+		<fluent_change fluent="[LIGHT_ON]" frame="1345" new_value="on" old_value="on"/>
+		<fluent_change fluent="[LIGHT_ON]" frame="1347" new_value="on" old_value="on"/>
+		<fluent_change fluent="[LIGHT_ON]" frame="1348" new_value="on" old_value="on"/>
+		<fluent_change fluent="[LIGHT_ON]" frame="1352" new_value="on" old_value="on"/>
+		<fluent_change fluent="[LIGHT_ON]" frame="10333" new_value="on" old_value="on"/>
+		<fluent_change fluent="[LIGHT_ON]" frame="10335" new_value="on" old_value="on"/>
+		<fluent_change fluent="[LIGHT_ON]" frame="11877" new_value="on" old_value="on"/>
+		<fluent_change fluent="[LIGHT_ON]" frame="11881" new_value="on" old_value="on"/>
+		<fluent_change fluent="[LIGHT_ON]" frame="11941" new_value="on" old_value="on"/>
+		<fluent_change fluent="[LIGHT_ON]" frame="11949" new_value="on" old_value="on"/>
+		<fluent_change fluent="PHONE_ACTIVE" frame="0" new_value="off" old_value="off"/>
+		<fluent_change fluent="PHONE_ACTIVE" frame="2981" new_value="on" old_value="off"/>
+		<fluent_change fluent="PHONE_ACTIVE" frame="3007" new_value="off" old_value="on"/>
+		<fluent_change fluent="PHONE_ACTIVE" frame="5443" new_value="on" old_value="off"/>
+		<fluent_change fluent="PHONE_ACTIVE" frame="6160" new_value="off" old_value="on"/>
+		<fluent_change fluent="PHONE_ACTIVE" frame="11214" new_value="on" old_value="off"/>
+		<fluent_change fluent="PHONE_ACTIVE" frame="11282" new_value="off" old_value="on"/>
+		<fluent_change fluent="PHONE_ACTIVE" frame="11336" new_value="on" old_value="off"/>
+		<fluent_change fluent="PHONE_ACTIVE" frame="11486" new_value="off" old_value="on"/>
+		<fluent_change fluent="WATER_STREAM" frame="0" new_value="off" old_value="off"/>
+		<fluent_change fluent="WATER_STREAM" frame="756" new_value="on" old_value="off"/>
+		<fluent_change fluent="WATER_STREAM" frame="1207" new_value="off" old_value="on"/>
+		<fluent_change fluent="WATER_STREAM" frame="7048" new_value="on" old_value="off"/>
+		<fluent_change fluent="WATER_STREAM" frame="7204" new_value="off" old_value="on"/>
+		<fluent_change fluent="WATER_STREAM" frame="8708" new_value="on" old_value="off"/>
+		<fluent_change fluent="WATER_STREAM" frame="8713" new_value="off" old_value="on"/>
+		<fluent_change fluent="WATER_STREAM" frame="8714" new_value="on" old_value="off"/>
+		<fluent_change fluent="WATER_STREAM" frame="8873" new_value="off" old_value="on"/>
+		<fluent_change fluent="WATER_STREAM" frame="9898" new_value="on" old_value="off"/>
+		<fluent_change fluent="WATER_STREAM" frame="10072" new_value="off" old_value="on"/>
+		<fluent_change fluent="AGENT_HAS_TRASH" frame="0" new_value="on" old_value="on"/>
+		<fluent_change fluent="AGENT_HAS_TRASH" frame="2980" new_value="off" old_value="on"/>
+		<fluent_change fluent="AGENT_HAS_TRASH" frame="3750" new_value="off" old_value="off"/>
+		<fluent_change fluent="AGENT_HAS_TRASH" frame="8905" new_value="off" old_value="off"/>
+		<fluent_change fluent="AGENT_HAS_TRASH" frame="11503" new_value="off" old_value="off"/>
+		<fluent_change fluent="AGENT_THIRST" frame="0" new_value="on" old_value="on"/>
+		<fluent_change fluent="AGENT_THIRST" frame="756" new_value="on" old_value="on"/>
+		<fluent_change fluent="AGENT_THIRST" frame="1207" new_value="off" old_value="on"/>
+		<fluent_change fluent="AGENT_THIRST" frame="7048" new_value="on" old_value="off"/>
+		<fluent_change fluent="AGENT_THIRST" frame="7204" new_value="off" old_value="on"/>
+		<fluent_change fluent="AGENT_THIRST" frame="8708" new_value="on" old_value="off"/>
+		<fluent_change fluent="AGENT_THIRST" frame="8713" new_value="off" old_value="on"/>
+		<fluent_change fluent="AGENT_THIRST" frame="8714" new_value="on" old_value="off"/>
+		<fluent_change fluent="AGENT_THIRST" frame="8873" new_value="off" old_value="on"/>
+		<fluent_change fluent="AGENT_THIRST" frame="9898" new_value="on" old_value="off"/>
+		<fluent_change fluent="AGENT_THIRST" frame="10072" new_value="off" old_value="on"/>
+		<fluent_change fluent="TRASH_MORE" frame="0" new_value="off" old_value="off"/>
+		<fluent_change fluent="TRASH_MORE" frame="2980" new_value="on" old_value="off"/>
+		<fluent_change fluent="TRASH_MORE" frame="3338" new_value="on" old_value="on"/>
+		<fluent_change fluent="TRASH_MORE" frame="8905" new_value="on" old_value="on"/>
+		<fluent_change fluent="TRASH_LESS" frame="0" new_value="off" old_value="off"/>
+	</fluent_changes>
+</temporal>
+

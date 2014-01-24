@@ -1,0 +1,10 @@
+temporal_parses = {
+	278: { "standing_START": {"energy": 0.001023, "agent": "uuid1"} },
+	351: { "standing_END": {"energy": 0.001023, "agent": "uuid1"} },
+	353: { "drink_START": {"energy": 0.119256, "agent": "uuid1"} },
+	384: { "drink_END": {"energy": 0.119256, "agent": "uuid1"} },
+	385: { "usecomputer_START": {"energy": -0.000000, "agent": "uuid1"} },
+	434: { "usecomputer_END": {"energy": -0.000000, "agent": "uuid1"} },
+	435: { "usecomputer_START": {"energy": 0.435328, "agent": "uuid1"} },
+	437: { "usecomputer_END": {"energy": 0.435328, "agent": "uuid1"} },
+ },

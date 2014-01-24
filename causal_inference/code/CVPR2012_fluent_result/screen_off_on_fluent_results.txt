@@ -1,0 +1,283 @@
+door_10_phone_14_light_1_screen_29_9406
+0
+door_11_9406
+0
+door_12_light_2_9406
+1
+173 178 0.886266
+door_13_light_3_9406
+0
+door_15_9406
+0
+door_1_8145
+0
+door_2_8145
+1
+1173 1178 0.949925
+door_4_trash_1_8145
+1
+1359 1364 0.959375
+door_5_8145
+1
+1959 1964 0.989013
+door_6_8145
+1
+1269 1274 0.943531
+door_7_8145
+1
+1381 1386 0.949925
+door_8_doorlock_3_8145
+1
+605 610 0.938987
+door_9_8145
+1
+731 736 0.989013
+doorlock_1_door_3_8145
+1
+846 856 0.965576
+doorlock_2_8145
+1
+1959 1964 0.989013
+light_10_9404
+1
+2498 2503 0.810446
+light_5_9406
+1
+251 256 0.989013
+light_6_9404
+1
+255 260 0.810446
+light_7_9404
+0
+light_8_screen_50_9404
+1
+300 310 0.886266
+light_9_screen_57_9404
+1
+2362 2367 0.984606
+phone_13_screen_27_lounge
+1
+2778 2783 0.959375
+phone_16_9406
+0
+phone_1_8145
+1
+1173 1178 0.949925
+phone_20_screen_53_9404
+0
+phone_24_screen_65_9404
+0
+phone_25_screen_67_9404
+1
+1529 1534 0.938987
+phone_2_8145
+0
+phone_3_8145
+1
+660 665 0.949925
+phone_4_8145
+0
+screen_10_lounge
+1
+3006 3011 0.850495
+screen_12_lounge
+2
+3893 3898 0.989013
+3897 3902 0.989001
+screen_13_lounge
+2
+4142 4152 0.989013
+4134 4144 0.965576
+screen_14_phone_8_lounge
+1
+4437 4442 0.620905
+screen_15_lounge
+2
+381 386 0.989013
+385 390 0.965576
+screen_16_phone_9_lounge
+0
+screen_17_trash_5_lounge
+0
+screen_18_lounge
+2
+3141 3146 0.965576
+3145 3150 0.965576
+screen_19_lounge
+1
+430 435 0.989013
+screen_1_lounge
+2
+335 340 0.989001
+781 786 0.620905
+screen_20_lounge
+0
+screen_21_phone_10_lounge
+0
+screen_23_lounge
+0
+screen_24_lounge
+1
+320 325 0.987008
+screen_25_lounge
+0
+screen_26_phone_12_lounge
+0
+screen_28_9406
+0
+screen_2_lounge
+1
+1289 1299 0.965576
+screen_30_9406
+0
+screen_31_9406
+0
+screen_32_9406
+0
+screen_33_9406
+0
+screen_34_phone_15_9406
+0
+screen_35_9406
+0
+screen_36_9406
+0
+screen_37_door_14_light_4_9406
+1
+80 85 0.886266
+screen_38_9406
+1
+366 371 0.965576
+screen_39_9406
+0
+screen_3_phone_5_lounge
+0
+screen_40_9406
+1
+1192 1197 0.850495
+screen_41_9406
+1
+1944 1949 0.989013
+screen_42_9404
+1
+349 354 0.938987
+screen_44_9404
+1
+1478 1483 0.620905
+screen_45_trash_8_9404
+0
+screen_46_9404
+1
+1857 1862 0.989013
+screen_47_water_8_phone_18_9404
+2
+2232 2237 0.620905
+2263 2268 0.620905
+screen_49_9404
+2
+4013 4018 0.938987
+4017 4022 0.938987
+screen_4_phone_6_lounge
+1
+3159 3164 0.620905
+screen_51_9404
+0
+screen_58_9404
+2
+560 565 0.989013
+294 299 0.949925
+screen_5_lounge
+1
+3493 3498 0.965576
+screen_61_9404
+1
+1806 1811 0.977556
+screen_63_9404
+2
+386 391 0.949925
+263 268 0.620905
+screen_6_lounge
+2
+4291 4296 0.753059
+4382 4387 0.753059
+screen_7_lounge
+2
+280 285 0.989013
+284 289 0.965576
+screen_8_lounge
+0
+screen_9_phone_7_lounge
+0
+trash_10_phone_19_9404
+0
+trash_11_screen_56_9404
+0
+trash_2_8145
+1
+1904 1909 0.790189
+trash_3_lounge
+0
+trash_4_screen_11_lounge
+1
+3418 3423 0.965576
+trash_6_phone_11_screen_22_lounge
+1
+2705 2710 0.989013
+trash_7_9406
+0
+water_10_screen_52_9404
+0
+water_11_screen_54_9404
+0
+water_12_phone_21_screen_59_9404
+0
+water_15_screen_64_9404
+0
+water_16_screen_66_9404
+0
+water_17_9404
+0
+water_18_screen_68_9404
+0
+water_19_screen_69_9404
+0
+water_1_8145
+0
+water_2_8145
+0
+water_4_8145
+0
+water_6_waterstream_5_8145
+0
+water_9_screen_48_trash_9_9404
+1
+3191 3196 0.949925
+waterstream_10_water_14_phone_23_screen_62_9404
+1
+2114 2119 0.965576
+waterstream_11_9404
+1
+2338 2343 0.949925
+waterstream_12_water_20_screen_70_9404
+0
+waterstream_1_8145
+1
+346 351 0.959375
+waterstream_2_water_3_8145
+0
+waterstream_3_water_5_8145
+1
+510 515 0.949925
+waterstream_4_8145
+0
+waterstream_6_water_7_phone_17_screen_43_9404
+1
+1053 1058 0.949925
+waterstream_7_9404
+0
+waterstream_8_screen_55_9404
+1
+2006 2011 0.949925
+waterstream_9_water_13_phone_22_screen_60_9404
+1
+1401 1406 0.790189

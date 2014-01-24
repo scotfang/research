@@ -1,0 +1,1510 @@
+cvpr2012_b2d3f912cba8652e29b302f742c3585c
+objects: ['door']
+frames: [3081, 3103]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="13.2884978051" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="13.2884978051" fluent="door" frame="3127" new_value="on" old_value="off"/>
+		<fluent_change energy="7.53857626571" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="5.49423809785" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.17965696985" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="13.2884978051" frame="3127"/>
+	</actions>
+</temporal>
+
+INSERT: {'door_3081_closed_open': 0, 'door_action_3103_act_opened': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'door_action_3103_act_closed': 0, 'door_3081_closed': 100, 'door_3103_open_closed': 0, 'door_3103_closed': 100, 'door_3081_open': 0, 'door_3103_closed_open': 0, 'door_3103_open': 0, 'door_action_3081_act_not_opened_closed': 100, 'door_action_3081_act_closed': 0, 'door_3081_open_closed': 0, 'door_action_3081_act_opened': 0, 'door_action_3103_act_not_opened_closed': 100}
+cvpr2012_35e79373eb4be729115cb940a6d2a1f6
+objects: ['light', 'door']
+frames: [140, 193, 220, 261]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="19.7901322962" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.24135714678" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.08163209499" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.4814852698" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions/>
+</temporal>
+
+INSERT: {'door_261_closed': 100, 'light_140_off_on': 0, 'light_193_off': 100, 'light_action_140_act_pushbutton': 0, 'door_140_open': 0, 'door_220_closed': 100, 'light_140_on_off': 0, 'door_220_open_closed': 0, 'door_action_261_act_closed': 0, 'door_261_open_closed': 0, 'light_193_off_on': 0, 'door_action_220_act_opened': 0, 'light_action_140_act_no_pushbutton': 100, 'door_140_closed_open': 0, 'door_261_open': 0, 'door_action_193_act_not_opened_closed': 100, 'door_action_193_act_closed': 0, 'door_action_261_act_opened': 0, 'door_220_closed_open': 0, 'door_140_open_closed': 0, 'door_action_140_act_not_opened_closed': 100, 'light_action_261_act_pushbutton': 0, 'door_action_220_act_not_opened_closed': 100, 'door_action_220_act_closed': 0, 'light_220_on_off': 0, 'hash': '1234567890', 'door_261_closed_open': 0, 'light_220_off': 100, 'light_140_on': 0, 'light_action_220_act_pushbutton': 0, 'light_193_on_off': 0, 'light_261_on': 0, 'door_193_open_closed': 0, 'light_140_off': 100, 'door_140_closed': 100, 'light_261_off_on': 0, 'name': 'causalgrammar', 'door_action_140_act_opened': 0, 'light_action_261_act_no_pushbutton': 100, 'light_193_on': 0, 'light_261_on_off': 0, 'light_action_193_act_no_pushbutton': 100, 'door_action_261_act_not_opened_closed': 100, 'light_action_220_act_no_pushbutton': 100, 'door_220_open': 0, 'door_action_140_act_closed': 0, 'light_220_on': 0, 'light_action_193_act_pushbutton': 0, 'light_220_off_on': 0, 'door_193_open': 0, 'door_193_closed': 100, 'door_193_closed_open': 0, 'door_action_193_act_opened': 0, 'light_261_off': 100}
+cvpr2012_e13d1a87d9de331fc8d0d7867c00a123
+objects: ['light', 'door']
+frames: [296, 326, 348]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="29.0824671836" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="29.0824671836" fluent="door" frame="404" new_value="on" old_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="4.46934248794" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.74711904893" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="4.00467719881" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="6.20190177615" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="7.91269038396" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.7035107566" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="4.7035107566" fluent="trash_MORE" frame="341" new_value="on" old_value="off"/>
+		<fluent_change energy="5.6543235132" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="29.0824671836" frame="404"/>
+		<event action="throwtrash_END" energy="4.7035107566" frame="341"/>
+	</actions>
+</temporal>
+
+INSERT: {'door_action_348_act_not_opened_closed': 100, 'light_296_on_off': 0, 'hash': '1234567890', 'light_348_off': 100, 'door_348_open_closed': 0, 'light_326_off': 100, 'light_action_296_act_pushbutton': 0, 'door_action_296_act_opened': 0, 'light_action_326_act_no_pushbutton': 100, 'door_action_326_act_closed': 0, 'light_296_off_on': 0, 'door_296_closed': 100, 'door_action_296_act_closed': 0, 'door_326_open_closed': 0, 'light_348_on_off': 0, 'door_348_closed': 100, 'door_296_closed_open': 0, 'light_action_348_act_pushbutton': 0, 'light_action_296_act_no_pushbutton': 100, 'door_348_open': 0, 'door_action_326_act_opened': 0, 'name': 'causalgrammar', 'light_326_on': 0, 'light_296_off': 100, 'light_326_off_on': 0, 'light_action_348_act_no_pushbutton': 100, 'door_action_326_act_not_opened_closed': 100, 'door_action_348_act_closed': 0, 'door_348_closed_open': 0, 'light_348_on': 0, 'door_action_296_act_not_opened_closed': 100, 'door_action_348_act_opened': 0, 'light_326_on_off': 0, 'door_296_open': 0, 'light_action_326_act_pushbutton': 0, 'door_326_closed_open': 0, 'door_296_open_closed': 0, 'light_296_on': 0, 'light_348_off_on': 0, 'door_326_closed': 100, 'door_326_open': 0}
+cvpr2012_2fd445501f1f3c5c1fd357d6d5a0e5c1
+objects: ['door']
+frames: [150, 215]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="14.5122145447" fluent="door" frame="0" new_value="on"/>
+		<fluent_change energy="14.5122145447" fluent="door" frame="238" new_value="off" old_value="on"/>
+		<fluent_change energy="14.5122145447" fluent="door" frame="287" new_value="on" old_value="off"/>
+		<fluent_change energy="8.50040586884" fluent="PHONE_ACTIVE" frame="0" new_value="on"/>
+		<fluent_change energy="8.50040586884" fluent="PHONE_ACTIVE" frame="204" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="15.6621483095" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="15.6621483095" fluent="screen" frame="241" new_value="on" old_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.72066625085" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_END" energy="14.5122145447" frame="238"/>
+		<event action="standing_START" energy="14.5122145447" frame="287"/>
+		<event action="makecall_END" energy="8.50040586884" frame="204"/>
+		<event action="usecomputer_START" energy="15.6621483095" frame="241"/>
+	</actions>
+</temporal>
+
+INSERT: {'door_215_open_closed': 0, 'door_150_open': 100, 'hash': '1234567890', 'name': 'causalgrammar', 'door_215_open': 100, 'door_action_215_act_opened': 0, 'door_150_closed_open': 0, 'door_215_closed_open': 0, 'door_215_closed': 0, 'door_150_open_closed': 0, 'door_action_150_act_not_opened_closed': 100, 'door_action_150_act_closed': 0, 'door_action_150_act_opened': 0, 'door_action_215_act_not_opened_closed': 100, 'door_action_215_act_closed': 0, 'door_150_closed': 0}
+cvpr2012_e658c061c1e1dcbaa9a89cc37103ada4
+objects: ['door']
+frames: [261, 314]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="20.6285569309" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="20.6285569309" fluent="door" frame="322" new_value="on" old_value="off"/>
+		<fluent_change energy="20.6285569309" fluent="door" frame="347" new_value="off" old_value="on"/>
+		<fluent_change energy="20.6285569309" fluent="door" frame="396" new_value="on" old_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="4.16467029398" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="5.49423809785" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="7.60801819001" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="20.6285569309" frame="322"/>
+		<event action="standing_END" energy="20.6285569309" frame="347"/>
+		<event action="standing_START" energy="20.6285569309" frame="396"/>
+	</actions>
+</temporal>
+
+INSERT: {'door_261_closed': 100, 'door_314_open_closed': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'door_261_closed_open': 0, 'door_action_314_act_opened': 0, 'door_action_261_act_opened': 0, 'door_261_open': 0, 'door_action_261_act_not_opened_closed': 100, 'door_action_261_act_closed': 0, 'door_314_closed': 100, 'door_261_open_closed': 0, 'door_action_314_act_not_opened_closed': 100, 'door_action_314_act_closed': 0, 'door_314_closed_open': 0, 'door_314_open': 0}
+cvpr2012_d3a65c7ebc5a328b0e200d47a40f903f
+objects: ['door']
+frames: [1165, 1204]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="16.2361868856" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="16.2361868856" fluent="door" frame="1193" new_value="on" old_value="off"/>
+		<fluent_change energy="16.2361868856" fluent="door" frame="1198" new_value="off" old_value="on"/>
+		<fluent_change energy="16.2361868856" fluent="door" frame="1220" new_value="on" old_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.24135714678" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.2341077566" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="4.2341077566" fluent="trash_MORE" frame="1183" new_value="on" old_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="16.2361868856" frame="1193"/>
+		<event action="standing_END" energy="16.2361868856" frame="1198"/>
+		<event action="standing_START" energy="16.2361868856" frame="1220"/>
+		<event action="throwtrash_END" energy="4.2341077566" frame="1183"/>
+	</actions>
+</temporal>
+
+INSERT: {'door_action_1165_act_closed': 0, 'door_action_1165_act_not_opened_closed': 100, 'hash': '1234567890', 'name': 'causalgrammar', 'door_1204_closed': 100, 'door_1165_closed_open': 0, 'door_action_1165_act_opened': 0, 'door_1204_closed_open': 0, 'door_1165_open': 0, 'door_1165_closed': 100, 'door_1204_open': 0, 'door_1165_open_closed': 0, 'door_action_1204_act_closed': 0, 'door_action_1204_act_not_opened_closed': 0, 'door_1204_open_closed': 0, 'door_action_1204_act_opened': 100}
+cvpr2012_72d0079e7947287f83737c081529d39c
+skipping door_4_trash_1_8145 due to an un unknown oject (one of ['trash', 'door'])
+cvpr2012_7028297ca8214f3e53fb18020294dd89
+objects: ['door']
+frames: [1895]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="26.345778626" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="26.345778626" fluent="door" frame="1911" new_value="on" old_value="off"/>
+		<fluent_change energy="26.345778626" fluent="door" frame="1964" new_value="off" old_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="12.7520565258" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="12.7520565258" fluent="screen" frame="1915" new_value="on" old_value="off"/>
+		<fluent_change energy="4.00438410023" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="12.6104165024" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="26.345778626" frame="1911"/>
+		<event action="standing_END" energy="26.345778626" frame="1964"/>
+		<event action="usecomputer_START" energy="12.7520565258" frame="1915"/>
+		<event action="drink_START" energy="12.6104165024" frame="1966"/>
+	</actions>
+</temporal>
+
+INSERT: {'door_1895_open_closed': 0, 'door_1895_open': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'door_action_1895_act_opened': 0, 'door_1895_closed': 100, 'door_action_1895_act_closed': 0, 'door_action_1895_act_not_opened_closed': 100, 'door_1895_closed_open': 0}
+cvpr2012_4f5a63e568a7b00908cfd18b76ed6a63
+objects: ['door']
+frames: [1242, 1300]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="20.6230990946" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="20.6230990946" fluent="door" frame="1256" new_value="on" old_value="off"/>
+		<fluent_change energy="20.6230990946" fluent="door" frame="1274" new_value="off" old_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.24135714678" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="6.63593447695" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="6.63593447695" fluent="trash_MORE" frame="1255" new_value="on" old_value="off"/>
+		<fluent_change energy="6.63593447695" fluent="trash_MORE" frame="1275" new_value="off" old_value="on"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="20.6230990946" frame="1256"/>
+		<event action="standing_END" energy="20.6230990946" frame="1274"/>
+		<event action="throwtrash_END" energy="6.63593447695" frame="1255"/>
+	</actions>
+</temporal>
+
+INSERT: {'door_action_1242_act_closed': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'door_1242_closed_open': 0, 'door_1300_closed_open': 0, 'door_action_1300_act_not_opened_closed': 0, 'door_1242_closed': 100, 'door_1300_open_closed': 0, 'door_action_1300_act_opened': 100, 'door_action_1242_act_opened': 0, 'door_1300_closed': 100, 'door_1242_open_closed': 0, 'door_action_1242_act_not_opened_closed': 100, 'door_action_1300_act_closed': 0, 'door_1300_open': 0, 'door_1242_open': 0}
+cvpr2012_82f61b3e0c6d2acb1957981c2af3e2ce
+objects: ['door']
+frames: [1350, 1407]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="31.6363739979" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="31.6363739979" fluent="door" frame="1508" new_value="on" old_value="off"/>
+		<fluent_change energy="31.6363739979" fluent="door" frame="1551" new_value="off" old_value="on"/>
+		<fluent_change energy="31.6363739979" fluent="door" frame="1600" new_value="on" old_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.24135714678" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="31.6363739979" frame="1508"/>
+		<event action="standing_END" energy="31.6363739979" frame="1551"/>
+		<event action="standing_START" energy="31.6363739979" frame="1600"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'door_action_1407_act_not_opened_closed': 100, 'door_1350_open_closed': 0, 'door_1350_closed_open': 0, 'door_action_1407_act_opened': 0, 'door_action_1350_act_opened': 0, 'door_action_1350_act_not_opened_closed': 100, 'door_1407_closed_open': 0, 'door_1407_closed': 100, 'door_1407_open_closed': 0, 'door_1407_open': 0, 'door_action_1350_act_closed': 0, 'door_1350_closed': 100, 'door_action_1407_act_closed': 0, 'door_1350_open': 0}
+cvpr2012_80fbc261cdb23ffe73ce489672c52b94
+skipping door_8_doorlock_3_8145 due to an un unknown oject (one of ['door', 'doorlock'])
+cvpr2012_ee4d798a76d9a67b10578c5c46df273c
+objects: ['door']
+frames: [703, 762]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="27.2654876297" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="27.2654876297" fluent="door" frame="781" new_value="on" old_value="off"/>
+		<fluent_change energy="27.2654876297" fluent="door" frame="810" new_value="off" old_value="on"/>
+		<fluent_change energy="27.2654876297" fluent="door" frame="859" new_value="on" old_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.24135714678" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="27.2654876297" frame="781"/>
+		<event action="standing_END" energy="27.2654876297" frame="810"/>
+		<event action="standing_START" energy="27.2654876297" frame="859"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'door_762_open': 0, 'door_action_703_act_not_opened_closed': 100, 'door_action_762_act_closed': 0, 'door_762_closed_open': 0, 'door_action_762_act_not_opened_closed': 100, 'door_action_762_act_opened': 0, 'door_762_closed': 100, 'door_703_closed_open': 0, 'door_762_open_closed': 0, 'door_703_open_closed': 0, 'door_703_open': 0, 'door_action_703_act_closed': 0, 'door_703_closed': 100, 'door_action_703_act_opened': 0}
+cvpr2012_044897b2706c651acab01e677543bc14
+skipping doorlock_1_door_3_8145 due to an un unknown oject (one of ['door', 'doorlock'])
+cvpr2012_89342d768ff566ec1e93fb6ff2e0f36b
+skipping doorlock_2_8145 due to an un unknown oject (one of ['doorlock'])
+cvpr2012_cb53a701bdfc95c0d71e6ed160d6f86e
+objects: ['light']
+frames: [2470]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="5.6543235132" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="5.49423809785" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.3499317566" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="4.3499317566" fluent="trash_MORE" frame="2526" new_value="on" old_value="off"/>
+		<fluent_change energy="11.3086470264" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="throwtrash_END" energy="4.3499317566" frame="2526"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'light_2470_off_on': 0, 'light_2470_off': 100, 'light_action_2470_act_no_pushbutton': 100, 'light_2470_on_off': 0, 'light_action_2470_act_pushbutton': 0, 'light_2470_on': 0}
+cvpr2012_0261ec55c3612015d67ec86efa1e1077
+objects: ['light']
+frames: [234]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="4.04670961602" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="5.49423809785" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="5.06836086355" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.3086470264" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions/>
+</temporal>
+
+INSERT: {'light_234_on_off': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'light_action_234_act_pushbutton': 0, 'light_234_on': 0, 'light_234_off_on': 0, 'light_234_off': 100, 'light_action_234_act_no_pushbutton': 100}
+cvpr2012_ae41d94d7b6fa279d4571fd545fb63ae
+objects: ['light']
+frames: [235]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="15.9190793549" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="15.9190793549" fluent="door" frame="345" new_value="on" old_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.24135714678" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="4.4219957566" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="4.4219957566" fluent="cup_LESS" frame="328" new_value="on" old_value="off"/>
+		<fluent_change energy="9.04091698243" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="9.04091698243" fluent="thirst" frame="328" new_value="off" old_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.04784048161" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.3086470264" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="15.9190793549" frame="345"/>
+		<event action="drink_END" energy="4.4219957566" frame="328"/>
+		<event action="drink_END" energy="9.04091698243" frame="328"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'light_action_235_act_no_pushbutton': 100, 'light_235_on': 0, 'light_235_off': 100, 'light_235_on_off': 0, 'light_235_off_on': 0, 'light_action_235_act_pushbutton': 0}
+cvpr2012_3da15c9304075ad35c49c9aafa08daa0
+objects: ['light']
+frames: [204]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="5.49423809785" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="4.08080213621" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="9.5465701137" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.4814852698" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions/>
+</temporal>
+
+INSERT: {'light_action_204_act_pushbutton': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'light_action_204_act_no_pushbutton': 100, 'light_204_on_off': 0, 'light_204_on': 0, 'light_204_off': 100, 'light_204_off_on': 0}
+cvpr2012_56d1097b8b1f93df82d996bcaf1f3c7f
+objects: ['light', 'screen']
+frames: [279, 352]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="15.0207973569" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="15.0207973569" fluent="screen" frame="536" new_value="on" old_value="off"/>
+		<fluent_change energy="4.2271617566" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="4.2271617566" fluent="cup_LESS" frame="516" new_value="on" old_value="off"/>
+		<fluent_change energy="8.84608298243" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="8.84608298243" fluent="thirst" frame="516" new_value="off" old_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.3086470264" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="15.0207973569" frame="536"/>
+		<event action="drink_END" energy="4.2271617566" frame="516"/>
+		<event action="drink_END" energy="8.84608298243" frame="516"/>
+	</actions>
+</temporal>
+
+INSERT: {'light_action_352_act_pushbutton': 0, 'light_279_off_on': 0, 'hash': '1234567890', 'light_279_on': 0, 'screen_action_352_act_no_mousekeyboard': 100, 'light_action_279_act_no_pushbutton': 100, 'screen_279_off': 100, 'screen_352_on_off': 0, 'screen_352_off': 100, 'screen_action_279_act_no_mousekeyboard': 100, 'light_352_on_off': 0, 'light_279_on_off': 0, 'light_352_on': 0, 'light_352_off': 100, 'screen_279_off_on': 0, 'screen_279_on': 0, 'name': 'causalgrammar', 'light_279_off': 100, 'screen_352_off_on': 0, 'light_action_279_act_pushbutton': 0, 'light_action_352_act_no_pushbutton': 100, 'screen_279_on_off': 0, 'screen_action_352_act_mousekeyboard': 0, 'screen_352_on': 0, 'light_352_off_on': 0, 'screen_action_279_act_mousekeyboard': 0}
+cvpr2012_9ca64b4e19e14885894fc1399bcd836c
+objects: ['light', 'screen']
+frames: [2311]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="16.2698099581" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="16.2698099581" fluent="door" frame="2411" new_value="on" old_value="off"/>
+		<fluent_change energy="16.2698099581" fluent="door" frame="2443" new_value="off" old_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.8829042018" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="11.8829042018" fluent="screen" frame="2322" new_value="on" old_value="off"/>
+		<fluent_change energy="11.8829042018" fluent="screen" frame="2361" new_value="off" old_value="on"/>
+		<fluent_change energy="4.00496035289" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="6.20218493023" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.3086470264" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="16.2698099581" frame="2411"/>
+		<event action="standing_END" energy="16.2698099581" frame="2443"/>
+		<event action="usecomputer_START" energy="11.8829042018" frame="2322"/>
+		<event action="usecomputer_END" energy="11.8829042018" frame="2361"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_2311_off_on': 0, 'light_action_2311_act_pushbutton': 0, 'light_2311_off_on': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_2311_on_off': 0, 'light_2311_on_off': 0, 'screen_action_2311_act_no_mousekeyboard': 100, 'screen_action_2311_act_mousekeyboard': 0, 'light_action_2311_act_no_pushbutton': 100, 'light_2311_on': 0, 'screen_2311_on': 0, 'light_2311_off': 100, 'screen_2311_off': 100}
+cvpr2012_7d75c8379a551a53b7791da815e7952b
+skipping phone_13_screen_27_lounge due to an un unknown oject (one of ['phone', 'screen', 'ringer'])
+cvpr2012_ae077ecda7fdf15e097991ae21001407
+skipping phone_16_9406 due to an un unknown oject (one of ['phone', 'ringer'])
+cvpr2012_db66d392fca025cd9b1707c4a77dca24
+skipping phone_1_8145 due to an un unknown oject (one of ['phone', 'ringer'])
+cvpr2012_3e439a669650f2eb7c70fdb6cd1e8101
+skipping phone_20_screen_53_9404 due to an un unknown oject (one of ['phone', 'screen', 'ringer'])
+cvpr2012_a691f2d6927be593988e473da0604347
+skipping phone_24_screen_65_9404 due to an un unknown oject (one of ['phone', 'screen', 'ringer'])
+cvpr2012_b2e97d26b8c312a9c4900f8b8fad5cce
+skipping phone_25_screen_67_9404 due to an un unknown oject (one of ['phone', 'screen', 'ringer'])
+cvpr2012_bd2d1deaeda67e4228ef881ee031c314
+skipping phone_2_8145 due to an un unknown oject (one of ['phone', 'ringer'])
+cvpr2012_9769e2e17755b45f95a3c755baac2ce9
+skipping phone_3_8145 due to an un unknown oject (one of ['phone', 'ringer'])
+cvpr2012_d7ca273c778e376a3f64957281e6af36
+skipping phone_4_8145 due to an un unknown oject (one of ['phone', 'ringer'])
+cvpr2012_40fd7662401e4522f3d77fb422270f7c
+objects: ['screen']
+frames: [2934]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="22.2772214021" fluent="screen" frame="0" new_value="on"/>
+		<fluent_change energy="22.2772214021" fluent="screen" frame="2955" new_value="off" old_value="on"/>
+		<fluent_change energy="22.2772214021" fluent="screen" frame="2956" new_value="on" old_value="off"/>
+		<fluent_change energy="22.2772214021" fluent="screen" frame="3051" new_value="off" old_value="on"/>
+		<fluent_change energy="22.2772214021" fluent="screen" frame="3052" new_value="on" old_value="off"/>
+		<fluent_change energy="22.2772214021" fluent="screen" frame="3092" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_END" energy="22.2772214021" frame="2955"/>
+		<event action="usecomputer_START" energy="22.2772214021" frame="2956"/>
+		<event action="usecomputer_END" energy="22.2772214021" frame="3051"/>
+		<event action="usecomputer_START" energy="22.2772214021" frame="3052"/>
+		<event action="usecomputer_END" energy="22.2772214021" frame="3092"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_2934_off': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_action_2934_act_no_mousekeyboard': 100, 'screen_action_2934_act_mousekeyboard': 0, 'screen_2934_off_on': 0, 'screen_2934_on_off': 0, 'screen_2934_on': 100}
+cvpr2012_bbf06197dce1438abf13c166dc3897fb
+objects: ['screen']
+frames: [3840]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="27.5615790602" fluent="screen" frame="0" new_value="on"/>
+		<fluent_change energy="27.5615790602" fluent="screen" frame="3871" new_value="off" old_value="on"/>
+		<fluent_change energy="27.5615790602" fluent="screen" frame="3872" new_value="on" old_value="off"/>
+		<fluent_change energy="27.5615790602" fluent="screen" frame="3960" new_value="off" old_value="on"/>
+		<fluent_change energy="27.5615790602" fluent="screen" frame="3961" new_value="on" old_value="off"/>
+		<fluent_change energy="27.5615790602" fluent="screen" frame="4007" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_END" energy="27.5615790602" frame="3871"/>
+		<event action="usecomputer_START" energy="27.5615790602" frame="3872"/>
+		<event action="usecomputer_END" energy="27.5615790602" frame="3960"/>
+		<event action="usecomputer_START" energy="27.5615790602" frame="3961"/>
+		<event action="usecomputer_END" energy="27.5615790602" frame="4007"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_3840_on_off': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_action_3840_act_no_mousekeyboard': 100, 'screen_3840_on': 100, 'screen_action_3840_act_mousekeyboard': 0, 'screen_3840_off_on': 0, 'screen_3840_off': 0}
+cvpr2012_59fb79f9b0d796a1fc18400d6e853821
+objects: ['screen']
+frames: [4100]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="5.6543235132" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.24135714678" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.35435723847" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions/>
+</temporal>
+
+INSERT: {'screen_action_4100_act_no_mousekeyboard': 100, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_4100_on_off': 0, 'screen_action_4100_act_mousekeyboard': 0, 'screen_4100_off': 100, 'screen_4100_on': 0, 'screen_4100_off_on': 0}
+cvpr2012_d36d7dbdd68172cf3090a95906c71489
+skipping screen_14_phone_8_lounge due to an un unknown oject (one of ['phone', 'screen', 'ringer'])
+cvpr2012_f2bb74760815b527e2dbf3f409168ec5
+objects: ['screen']
+frames: [324]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="12.2584833224" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="17.5118638599" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="17.5118638599" fluent="screen" frame="381" new_value="on" old_value="off"/>
+		<fluent_change energy="17.5118638599" fluent="screen" frame="420" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="17.5118638599" frame="381"/>
+		<event action="usecomputer_END" energy="17.5118638599" frame="420"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_324_on_off': 0, 'screen_324_on': 0, 'screen_324_off': 100, 'screen_action_324_act_mousekeyboard': 0, 'screen_action_324_act_no_mousekeyboard': 100, 'screen_324_off_on': 0}
+cvpr2012_239ebe8670d7eba52415f5fdbd608a9b
+skipping screen_16_phone_9_lounge due to an un unknown oject (one of ['phone', 'screen', 'ringer'])
+cvpr2012_0217b7b5223f134d317e0a55eb40d9dd
+skipping screen_17_trash_5_lounge due to an un unknown oject (one of ['screen', 'trash'])
+cvpr2012_fe833193f64dd15cd92bc35c31c932ed
+objects: ['screen']
+frames: [3000]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="26.3164754869" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="26.3164754869" fluent="screen" frame="3073" new_value="on" old_value="off"/>
+		<fluent_change energy="26.3164754869" fluent="screen" frame="3077" new_value="off" old_value="on"/>
+		<fluent_change energy="4.37701400159" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="9.58372189232" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.65715281397" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="26.3164754869" frame="3073"/>
+		<event action="usecomputer_END" energy="26.3164754869" frame="3077"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_action_3000_act_no_mousekeyboard': 100, 'screen_3000_off': 100, 'screen_3000_off_on': 0, 'screen_3000_on': 0, 'screen_action_3000_act_mousekeyboard': 0, 'screen_3000_on_off': 0}
+cvpr2012_31f6889c668d1cb5f8a466a2c189127f
+objects: ['screen']
+frames: [321]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="5.6543235132" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.6497269819" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="11.6497269819" fluent="screen" frame="413" new_value="on" old_value="off"/>
+		<fluent_change energy="11.6497269819" fluent="screen" frame="485" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.2480217566" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="4.2480217566" fluent="trash_MORE" frame="393" new_value="on" old_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="11.6497269819" frame="413"/>
+		<event action="usecomputer_END" energy="11.6497269819" frame="485"/>
+		<event action="throwtrash_END" energy="4.2480217566" frame="393"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_321_on_off': 0, 'screen_action_321_act_no_mousekeyboard': 100, 'screen_321_off': 100, 'screen_321_on': 0, 'screen_321_off_on': 0, 'screen_action_321_act_mousekeyboard': 0}
+cvpr2012_7f05529dec6a03d3a459fc2ee1969f7f
+objects: ['screen']
+frames: [192, 348]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="5.6543235132" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="4.023184306" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="270" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="306" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="307" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="361" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="362" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="408" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="409" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="461" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="462" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="515" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="516" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="545" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="546" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="613" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="614" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="670" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="671" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="696" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="697" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="753" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="754" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="828" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="829" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="887" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="888" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="908" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="909" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="972" new_value="off" old_value="on"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="973" new_value="on" old_value="off"/>
+		<fluent_change energy="98.9093780947" fluent="screen" frame="1036" new_value="off" old_value="on"/>
+		<fluent_change energy="4.0244453802" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="6.22166995753" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="7.46653220203" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="98.9093780947" frame="270"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="306"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="307"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="361"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="362"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="408"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="409"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="461"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="462"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="515"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="516"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="545"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="546"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="613"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="614"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="670"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="671"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="696"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="697"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="753"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="754"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="828"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="829"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="887"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="888"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="908"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="909"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="972"/>
+		<event action="usecomputer_START" energy="98.9093780947" frame="973"/>
+		<event action="usecomputer_END" energy="98.9093780947" frame="1036"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_348_off': 0, 'screen_action_348_act_no_mousekeyboard': 100, 'screen_348_off_on': 100, 'screen_192_off_on': 0, 'screen_action_192_act_mousekeyboard': 0, 'screen_348_on': 0, 'screen_action_192_act_no_mousekeyboard': 100, 'screen_192_off': 100, 'screen_192_on_off': 0, 'screen_192_on': 0, 'screen_action_348_act_mousekeyboard': 0, 'screen_348_on_off': 0}
+cvpr2012_95bf822299eab5cc060e66d4facdafd6
+skipping screen_21_phone_10_lounge due to an un unknown oject (one of ['phone', 'screen', 'ringer'])
+cvpr2012_44a1356205d5c25ebf5b4756b5696f87
+objects: ['screen']
+frames: [3107]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.5077180702" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="11.5077180702" fluent="screen" frame="3127" new_value="on" old_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="11.5077180702" frame="3127"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_action_3107_act_no_mousekeyboard': 100, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_3107_on': 0, 'screen_3107_off': 100, 'screen_action_3107_act_mousekeyboard': 0, 'screen_3107_on_off': 0, 'screen_3107_off_on': 0}
+cvpr2012_61452a3257c87fc8aa7e00a79979851e
+objects: ['screen']
+frames: [253]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="9.5939234994" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="9.5939234994" fluent="door" frame="299" new_value="on" old_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.6497269819" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="11.6497269819" fluent="screen" frame="312" new_value="on" old_value="off"/>
+		<fluent_change energy="11.6497269819" fluent="screen" frame="386" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="9.5939234994" frame="299"/>
+		<event action="usecomputer_START" energy="11.6497269819" frame="312"/>
+		<event action="usecomputer_END" energy="11.6497269819" frame="386"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_action_253_act_no_mousekeyboard': 100, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_253_off_on': 0, 'screen_action_253_act_mousekeyboard': 0, 'screen_253_on': 0, 'screen_253_off': 100, 'screen_253_on_off': 0}
+cvpr2012_8c85d299be8a2f267fea254cd8b7a03a
+objects: ['door']
+frames: [261, 314]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="13.8801654692" fluent="screen" frame="0" new_value="on"/>
+		<fluent_change energy="13.8801654692" fluent="screen" frame="781" new_value="off" old_value="on"/>
+		<fluent_change energy="13.8801654692" fluent="screen" frame="782" new_value="on" old_value="off"/>
+		<fluent_change energy="13.8801654692" fluent="screen" frame="831" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_END" energy="13.8801654692" frame="781"/>
+		<event action="usecomputer_START" energy="13.8801654692" frame="782"/>
+		<event action="usecomputer_END" energy="13.8801654692" frame="831"/>
+	</actions>
+</temporal>
+
+INSERT: {'door_261_closed': 100, 'door_314_open_closed': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'door_261_closed_open': 0, 'door_action_314_act_opened': 0, 'door_action_261_act_opened': 0, 'door_261_open': 0, 'door_action_261_act_not_opened_closed': 100, 'door_action_261_act_closed': 0, 'door_314_closed': 100, 'door_261_open_closed': 0, 'door_action_314_act_not_opened_closed': 100, 'door_action_314_act_closed': 0, 'door_314_closed_open': 0, 'door_314_open': 0}
+cvpr2012_2db42b631d0ff078ae2bffde884b42b4
+skipping screen_26_phone_12_lounge due to an un unknown oject (one of ['phone', 'screen', 'ringer'])
+cvpr2012_9b644124fa1eafeb78b4d08652320384
+objects: ['screen']
+frames: [1207, 1310]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="5.6543235132" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.6497269819" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="11.6497269819" fluent="screen" frame="1261" new_value="on" old_value="off"/>
+		<fluent_change energy="11.6497269819" fluent="screen" frame="1575" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.2276577566" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="4.2276577566" fluent="trash_MORE" frame="1241" new_value="on" old_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="11.6497269819" frame="1261"/>
+		<event action="usecomputer_END" energy="11.6497269819" frame="1575"/>
+		<event action="throwtrash_END" energy="4.2276577566" frame="1241"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_action_1310_act_no_mousekeyboard': 100, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_1207_on_off': 0, 'screen_action_1207_act_mousekeyboard': 0, 'screen_action_1310_act_mousekeyboard': 0, 'screen_1310_on': 0, 'screen_1310_off': 0, 'screen_action_1207_act_no_mousekeyboard': 100, 'screen_1207_off': 100, 'screen_1310_on_off': 0, 'screen_1310_off_on': 100, 'screen_1207_on': 0, 'screen_1207_off_on': 0}
+cvpr2012_d9ad43411d5c92e99f451005968028cb
+objects: ['screen']
+frames: [703]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="31.6859395685" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="31.6859395685" fluent="screen" frame="723" new_value="on" old_value="off"/>
+		<fluent_change energy="31.6859395685" fluent="screen" frame="762" new_value="off" old_value="on"/>
+		<fluent_change energy="31.6859395685" fluent="screen" frame="763" new_value="on" old_value="off"/>
+		<fluent_change energy="31.6859395685" fluent="screen" frame="786" new_value="off" old_value="on"/>
+		<fluent_change energy="31.6859395685" fluent="screen" frame="787" new_value="on" old_value="off"/>
+		<fluent_change energy="31.6859395685" fluent="screen" frame="830" new_value="off" old_value="on"/>
+		<fluent_change energy="31.6859395685" fluent="screen" frame="831" new_value="on" old_value="off"/>
+		<fluent_change energy="31.6859395685" fluent="screen" frame="874" new_value="off" old_value="on"/>
+		<fluent_change energy="31.6859395685" fluent="screen" frame="875" new_value="on" old_value="off"/>
+		<fluent_change energy="31.6859395685" fluent="screen" frame="900" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="31.6859395685" frame="723"/>
+		<event action="usecomputer_END" energy="31.6859395685" frame="762"/>
+		<event action="usecomputer_START" energy="31.6859395685" frame="763"/>
+		<event action="usecomputer_END" energy="31.6859395685" frame="786"/>
+		<event action="usecomputer_START" energy="31.6859395685" frame="787"/>
+		<event action="usecomputer_END" energy="31.6859395685" frame="830"/>
+		<event action="usecomputer_START" energy="31.6859395685" frame="831"/>
+		<event action="usecomputer_END" energy="31.6859395685" frame="874"/>
+		<event action="usecomputer_START" energy="31.6859395685" frame="875"/>
+		<event action="usecomputer_END" energy="31.6859395685" frame="900"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_action_703_act_mousekeyboard': 0, 'screen_703_off_on': 0, 'screen_action_703_act_no_mousekeyboard': 100, 'screen_703_on': 0, 'screen_703_on_off': 0, 'screen_703_off': 100}
+cvpr2012_74a72568506774709d9c2f2cf3b75e0d
+objects: ['screen']
+frames: [894]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.53488315283" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="8.53488315283" fluent="screen" frame="1038" new_value="on" old_value="off"/>
+		<fluent_change energy="8.53488315283" fluent="screen" frame="1069" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.2780827566" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="4.2780827566" fluent="trash_MORE" frame="1002" new_value="on" old_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="8.53488315283" frame="1038"/>
+		<event action="usecomputer_END" energy="8.53488315283" frame="1069"/>
+		<event action="throwtrash_END" energy="4.2780827566" frame="1002"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_894_off': 100, 'screen_894_off_on': 0, 'screen_action_894_act_mousekeyboard': 0, 'screen_894_on_off': 0, 'screen_894_on': 0, 'screen_action_894_act_no_mousekeyboard': 100}
+cvpr2012_3f7508e39ae3aa96f673550893f64fa9
+objects: ['screen']
+frames: [1270]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="5.49423809785" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions/>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_1270_on_off': 0, 'screen_1270_off_on': 0, 'screen_action_1270_act_no_mousekeyboard': 100, 'screen_action_1270_act_mousekeyboard': 0, 'screen_1270_on': 0, 'screen_1270_off': 100}
+cvpr2012_3fd830256315fb5b051fc2c429f018e1
+objects: ['screen']
+frames: [367]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="10.3466903724" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="10.3466903724" fluent="door" frame="394" new_value="on" old_value="off"/>
+		<fluent_change energy="10.3466903724" fluent="door" frame="401" new_value="off" old_value="on"/>
+		<fluent_change energy="10.3466903724" fluent="door" frame="450" new_value="on" old_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.53488315283" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="8.53488315283" fluent="screen" frame="421" new_value="on" old_value="off"/>
+		<fluent_change energy="8.53488315283" fluent="screen" frame="474" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.4814852698" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="10.3466903724" frame="394"/>
+		<event action="standing_END" energy="10.3466903724" frame="401"/>
+		<event action="standing_START" energy="10.3466903724" frame="450"/>
+		<event action="usecomputer_START" energy="8.53488315283" frame="421"/>
+		<event action="usecomputer_END" energy="8.53488315283" frame="474"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_367_off_on': 0, 'screen_action_367_act_no_mousekeyboard': 100, 'screen_action_367_act_mousekeyboard': 0, 'screen_367_on': 0, 'screen_367_off': 100, 'screen_367_on_off': 0}
+cvpr2012_17729379e245a7bfac47908d931d65e7
+objects: ['screen']
+frames: [494]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="31.955248052" fluent="screen" frame="0" new_value="on"/>
+		<fluent_change energy="31.955248052" fluent="screen" frame="518" new_value="off" old_value="on"/>
+		<fluent_change energy="31.955248052" fluent="screen" frame="519" new_value="on" old_value="off"/>
+		<fluent_change energy="31.955248052" fluent="screen" frame="548" new_value="off" old_value="on"/>
+		<fluent_change energy="31.955248052" fluent="screen" frame="549" new_value="on" old_value="off"/>
+		<fluent_change energy="31.955248052" fluent="screen" frame="550" new_value="off" old_value="on"/>
+		<fluent_change energy="31.955248052" fluent="screen" frame="579" new_value="on" old_value="off"/>
+		<fluent_change energy="31.955248052" fluent="screen" frame="587" new_value="off" old_value="on"/>
+		<fluent_change energy="31.955248052" fluent="screen" frame="627" new_value="on" old_value="off"/>
+		<fluent_change energy="31.955248052" fluent="screen" frame="667" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_END" energy="31.955248052" frame="518"/>
+		<event action="usecomputer_START" energy="31.955248052" frame="519"/>
+		<event action="usecomputer_END" energy="31.955248052" frame="548"/>
+		<event action="usecomputer_START" energy="31.955248052" frame="549"/>
+		<event action="usecomputer_START" energy="31.955248052" frame="579"/>
+		<event action="usecomputer_END" energy="31.955248052" frame="587"/>
+		<event action="usecomputer_START" energy="31.955248052" frame="627"/>
+		<event action="usecomputer_END" energy="31.955248052" frame="667"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_494_off': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_494_on': 100, 'screen_494_on_off': 0, 'screen_action_494_act_no_mousekeyboard': 100, 'screen_action_494_act_mousekeyboard': 0, 'screen_494_off_on': 0}
+cvpr2012_0b1d4dcc1de03e8e136e79c042ddac30
+objects: ['light', 'screen', 'door']
+frames: [1, 59, 95]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="5.6543235132" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.209292679" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.2328137566" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="4.2328137566" fluent="trash_MORE" frame="137" new_value="on" old_value="off"/>
+		<fluent_change energy="8.4814852698" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="throwtrash_END" energy="4.2328137566" frame="137"/>
+	</actions>
+</temporal>
+
+INSERT: {'light_action_95_act_pushbutton': 0, 'light_95_off': 100, 'screen_action_95_act_no_mousekeyboard': 100, 'door_action_95_act_closed': 0, 'light_1_off_on': 0, 'light_59_on_off': 0, 'door_action_95_act_opened': 0, 'light_action_1_act_no_pushbutton': 100, 'door_95_open': 0, 'screen_95_off': 100, 'door_1_open': 0, 'screen_95_on': 0, 'door_59_open_closed': 0, 'door_1_open_closed': 0, 'door_action_59_act_not_opened_closed': 100, 'light_1_off': 100, 'door_action_95_act_not_opened_closed': 100, 'light_1_on_off': 0, 'door_95_open_closed': 0, 'screen_1_off_on': 0, 'screen_59_off': 100, 'light_59_off_on': 0, 'screen_59_on': 0, 'light_95_on': 0, 'screen_action_59_act_mousekeyboard': 0, 'screen_1_on': 0, 'screen_59_on_off': 0, 'light_action_59_act_pushbutton': 0, 'light_95_off_on': 0, 'screen_action_59_act_no_mousekeyboard': 100, 'light_action_59_act_no_pushbutton': 100, 'screen_1_on_off': 0, 'hash': '1234567890', 'screen_95_off_on': 0, 'light_59_on': 0, 'light_59_off': 100, 'screen_95_on_off': 0, 'screen_59_off_on': 0, 'door_59_open': 0, 'light_1_on': 0, 'light_95_on_off': 0, 'door_1_closed_open': 0, 'screen_action_1_act_no_mousekeyboard': 100, 'door_action_1_act_closed': 0, 'screen_1_off': 100, 'screen_action_1_act_mousekeyboard': 0, 'name': 'causalgrammar', 'door_action_1_act_opened': 0, 'door_95_closed_open': 0, 'door_59_closed': 100, 'door_action_59_act_closed': 0, 'light_action_1_act_pushbutton': 0, 'door_1_closed': 100, 'light_action_95_act_no_pushbutton': 100, 'door_action_59_act_opened': 0, 'screen_action_95_act_mousekeyboard': 0, 'door_59_closed_open': 0, 'door_action_1_act_not_opened_closed': 100, 'door_95_closed': 100}
+cvpr2012_5838fe869f252e1633823911b40582ae
+objects: ['screen']
+frames: [278]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="14.5432744902" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="14.5432744902" fluent="door" frame="328" new_value="on" old_value="off"/>
+		<fluent_change energy="14.5432744902" fluent="door" frame="352" new_value="off" old_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="24.8997318497" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="24.8997318497" fluent="screen" frame="455" new_value="on" old_value="off"/>
+		<fluent_change energy="24.8997318497" fluent="screen" frame="457" new_value="off" old_value="on"/>
+		<fluent_change energy="4.3464177566" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="4.3464177566" fluent="cup_LESS" frame="385" new_value="on" old_value="off"/>
+		<fluent_change energy="8.96533898243" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="8.96533898243" fluent="thirst" frame="385" new_value="off" old_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="14.5432744902" frame="328"/>
+		<event action="standing_END" energy="14.5432744902" frame="352"/>
+		<event action="usecomputer_START" energy="24.8997318497" frame="455"/>
+		<event action="usecomputer_END" energy="24.8997318497" frame="457"/>
+		<event action="drink_END" energy="4.3464177566" frame="385"/>
+		<event action="drink_END" energy="8.96533898243" frame="385"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_278_off_on': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_action_278_act_mousekeyboard': 0, 'screen_action_278_act_no_mousekeyboard': 100, 'screen_278_on_off': 0, 'screen_278_on': 0, 'screen_278_off': 100}
+cvpr2012_be1570bc9cdfe5a878a63e9d5b5a2b2e
+objects: ['screen']
+frames: [526]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.46833144686" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="8.46833144686" fluent="screen" frame="544" new_value="on" old_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="8.46833144686" frame="544"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_526_off_on': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_action_526_act_mousekeyboard': 0, 'screen_526_on_off': 0, 'screen_action_526_act_no_mousekeyboard': 100, 'screen_526_on': 0, 'screen_526_off': 100}
+cvpr2012_c04856bc3ab5baceffc9c5124d250bf6
+skipping screen_3_phone_5_lounge due to an un unknown oject (one of ['phone', 'screen', 'ringer'])
+cvpr2012_290e6576db7fed306a51814d2e72cb34
+objects: ['screen']
+frames: [1074]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="8.57224986884" fluent="PHONE_ACTIVE" frame="0" new_value="on"/>
+		<fluent_change energy="8.57224986884" fluent="PHONE_ACTIVE" frame="1228" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="5.49423809785" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="4.2341617566" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="4.2341617566" fluent="cup_LESS" frame="1199" new_value="on" old_value="off"/>
+		<fluent_change energy="8.85308298243" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="8.85308298243" fluent="thirst" frame="1199" new_value="off" old_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="6.34548945738" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="makecall_END" energy="8.57224986884" frame="1228"/>
+		<event action="drink_END" energy="4.2341617566" frame="1199"/>
+		<event action="drink_END" energy="8.85308298243" frame="1199"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_1074_on_off': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_1074_off': 100, 'screen_action_1074_act_no_mousekeyboard': 100, 'screen_1074_on': 0, 'screen_action_1074_act_mousekeyboard': 0, 'screen_1074_off_on': 0}
+cvpr2012_555b060391b44d606f882c0f7164b2c2
+objects: ['screen']
+frames: [1926]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.24135714678" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.2281377566" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="4.2281377566" fluent="trash_MORE" frame="1991" new_value="on" old_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="throwtrash_END" energy="4.2281377566" frame="1991"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_1926_off': 100, 'screen_action_1926_act_no_mousekeyboard': 100, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_action_1926_act_mousekeyboard': 0, 'screen_1926_off_on': 0, 'screen_1926_on_off': 0, 'screen_1926_on': 0}
+cvpr2012_921c4d0eb045ef7ac9ae506d89bca7e9
+objects: ['screen']
+frames: [306]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="5.6543235132" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="8.48139446788" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="8.48139446788" fluent="PHONE_ACTIVE" frame="394" new_value="on" old_value="off"/>
+		<fluent_change energy="8.48139446788" fluent="PHONE_ACTIVE" frame="525" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="18.4501595016" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="18.4501595016" fluent="screen" frame="409" new_value="on" old_value="off"/>
+		<fluent_change energy="4.2313777566" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="4.2313777566" fluent="cup_LESS" frame="381" new_value="on" old_value="off"/>
+		<fluent_change energy="8.85029898243" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="8.85029898243" fluent="thirst" frame="381" new_value="off" old_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.13917001436" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="makecall_START" energy="8.48139446788" frame="394"/>
+		<event action="makecall_END" energy="8.48139446788" frame="525"/>
+		<event action="usecomputer_START" energy="18.4501595016" frame="409"/>
+		<event action="drink_END" energy="4.2313777566" frame="381"/>
+		<event action="drink_END" energy="8.85029898243" frame="381"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_action_306_act_mousekeyboard': 0, 'screen_action_306_act_no_mousekeyboard': 100, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_306_off_on': 0, 'screen_306_on': 0, 'screen_306_on_off': 0, 'screen_306_off': 100}
+cvpr2012_085976decec2c39be0bdaf8225ee420a
+objects: ['screen']
+frames: [1401]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.4806166209" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="11.4806166209" fluent="screen" frame="1421" new_value="on" old_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="11.4806166209" frame="1421"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_action_1401_act_no_mousekeyboard': 100, 'screen_1401_off': 100, 'screen_1401_on': 0, 'screen_1401_off_on': 0, 'screen_1401_on_off': 0, 'screen_action_1401_act_mousekeyboard': 0}
+cvpr2012_41d302473312eb64ba89dcf17bb322a1
+skipping screen_45_trash_8_9404 due to an un unknown oject (one of ['screen', 'trash'])
+cvpr2012_f9635dadefca08f952df4ac085aedb44
+objects: ['screen']
+frames: [1857]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="8.6982644066" fluent="PHONE_ACTIVE" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="8.24135714678" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions/>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_action_1857_act_no_mousekeyboard': 100, 'screen_action_1857_act_mousekeyboard': 0, 'screen_1857_off_on': 0, 'screen_1857_on': 0, 'screen_1857_off': 100, 'screen_1857_on_off': 0}
+cvpr2012_74de8a7a858f612f61b50b6c4d80119e
+skipping screen_47_water_8_phone_18_9404 due to an un unknown oject (one of ['cup', 'ringer', 'screen', 'thirst', 'water', 'phone'])
+cvpr2012_99c79733ec6f6c26cafbe69456cd6211
+objects: ['screen']
+frames: [3975]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="5.6543235132" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.6900909819" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="11.6900909819" fluent="screen" frame="4015" new_value="on" old_value="off"/>
+		<fluent_change energy="11.6900909819" fluent="screen" frame="4075" new_value="off" old_value="on"/>
+		<fluent_change energy="4.7129087566" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="4.7129087566" fluent="cup_LESS" frame="4002" new_value="on" old_value="off"/>
+		<fluent_change energy="9.33182998243" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="9.33182998243" fluent="thirst" frame="4002" new_value="off" old_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="5.6543235132" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="11.6900909819" frame="4015"/>
+		<event action="usecomputer_END" energy="11.6900909819" frame="4075"/>
+		<event action="drink_END" energy="4.7129087566" frame="4002"/>
+		<event action="drink_END" energy="9.33182998243" frame="4002"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_3975_on_off': 0, 'screen_3975_off': 100, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_action_3975_act_no_mousekeyboard': 100, 'screen_3975_off_on': 0, 'screen_action_3975_act_mousekeyboard': 0, 'screen_3975_on': 0}
+cvpr2012_9b7934ba79c6040e7728973e1c422339
+skipping screen_4_phone_6_lounge due to an un unknown oject (one of ['phone', 'screen', 'ringer'])
+cvpr2012_b5bb6640e75febea5544c737a9d504f7
+objects: ['screen']
+frames: [527]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="4.60290150176" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="11.4526882018" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="11.4526882018" fluent="screen" frame="564" new_value="on" old_value="off"/>
+		<fluent_change energy="11.4526882018" fluent="screen" frame="637" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="8.04624939778" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="11.4526882018" frame="564"/>
+		<event action="usecomputer_END" energy="11.4526882018" frame="637"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_527_on_off': 0, 'screen_action_527_act_no_mousekeyboard': 100, 'screen_527_off': 100, 'screen_527_on': 0, 'screen_527_off_on': 0, 'screen_action_527_act_mousekeyboard': 0}
+cvpr2012_5b9e2799293b6a2657582cc00cf7bbc8
+objects: ['screen']
+frames: [192]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="35.3609738736" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="35.3609738736" fluent="door" frame="284" new_value="on" old_value="off"/>
+		<fluent_change energy="35.3609738736" fluent="door" frame="306" new_value="off" old_value="on"/>
+		<fluent_change energy="35.3609738736" fluent="door" frame="355" new_value="on" old_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="4.2372487566" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="4.2372487566" fluent="cup_MORE" frame="601" new_value="on" old_value="off"/>
+		<fluent_change energy="13.7355952446" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="6.54581548847" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="6.54581548847" fluent="cup_LESS" frame="234" new_value="on" old_value="off"/>
+		<fluent_change energy="20.9140087564" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="20.9140087564" fluent="thirst" frame="564" new_value="off" old_value="on"/>
+		<fluent_change energy="8.49152686884" fluent="water" frame="0" new_value="on"/>
+		<fluent_change energy="8.49152686884" fluent="water" frame="601" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="35.3609738736" frame="284"/>
+		<event action="standing_END" energy="35.3609738736" frame="306"/>
+		<event action="standing_START" energy="35.3609738736" frame="355"/>
+		<event action="benddown_END" energy="4.2372487566" frame="601"/>
+		<event action="drink_END" energy="6.54581548847" frame="234"/>
+		<event action="drink_END" energy="6.54581548847" frame="564"/>
+		<event action="drink_END" energy="20.9140087564" frame="564"/>
+		<event action="benddown_END" energy="8.49152686884" frame="601"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_192_off_on': 0, 'screen_action_192_act_mousekeyboard': 0, 'screen_action_192_act_no_mousekeyboard': 100, 'screen_192_off': 100, 'screen_192_on_off': 0, 'screen_192_on': 0}
+cvpr2012_f9c6f68fe9b1a8b7c3e3529dd1f41c1f
+objects: ['screen']
+frames: [3492]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="13.5003924449" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="13.5003924449" fluent="door" frame="3546" new_value="on" old_value="off"/>
+		<fluent_change energy="13.5003924449" fluent="door" frame="3671" new_value="off" old_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="5.49423809785" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_START" energy="13.5003924449" frame="3546"/>
+		<event action="standing_END" energy="13.5003924449" frame="3671"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_action_3492_act_mousekeyboard': 0, 'screen_3492_on_off': 0, 'screen_action_3492_act_no_mousekeyboard': 100, 'screen_3492_on': 0, 'screen_3492_off_on': 0, 'screen_3492_off': 100}
+cvpr2012_8eb4261186e85d2f92b8a1b274b9ee52
+objects: ['screen']
+frames: [1784]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="4.39752581954" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="5.49423809785" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="4.2835907566" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="4.2835907566" fluent="cup_LESS" frame="1840" new_value="on" old_value="off"/>
+		<fluent_change energy="8.90251198243" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="8.90251198243" fluent="thirst" frame="1840" new_value="off" old_value="on"/>
+		<fluent_change energy="7.84087371557" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="drink_END" energy="4.2835907566" frame="1840"/>
+		<event action="drink_END" energy="8.90251198243" frame="1840"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_1784_off_on': 0, 'screen_action_1784_act_mousekeyboard': 0, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_1784_on': 0, 'screen_1784_off': 100, 'screen_action_1784_act_no_mousekeyboard': 100, 'screen_1784_on_off': 0}
+cvpr2012_bdad5b2dc1b1b40b6839f0e53ea114f0
+objects: ['screen']
+frames: [252]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="19.9375317581" fluent="door" frame="0" new_value="on"/>
+		<fluent_change energy="19.9375317581" fluent="door" frame="501" new_value="off" old_value="on"/>
+		<fluent_change energy="19.9375317581" fluent="door" frame="550" new_value="on" old_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="4.2271617566" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="4.2271617566" fluent="cup_MORE" frame="454" new_value="on" old_value="off"/>
+		<fluent_change energy="13.7355952446" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="4.65353280678" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="9.41745398243" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="9.41745398243" fluent="thirst" frame="258" new_value="off" old_value="on"/>
+		<fluent_change energy="8.48139446788" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="8.48139446788" fluent="water" frame="259" new_value="on" old_value="off"/>
+		<fluent_change energy="8.48139446788" fluent="water" frame="454" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="standing_END" energy="19.9375317581" frame="501"/>
+		<event action="standing_START" energy="19.9375317581" frame="550"/>
+		<event action="benddown_END" energy="4.2271617566" frame="454"/>
+		<event action="drink_END" energy="9.41745398243" frame="258"/>
+		<event action="benddown_START" energy="8.48139446788" frame="259"/>
+		<event action="benddown_END" energy="8.48139446788" frame="454"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_action_252_act_no_mousekeyboard': 100, 'screen_252_off': 100, 'screen_252_off_on': 0, 'screen_action_252_act_mousekeyboard': 0, 'screen_252_on': 0, 'screen_252_on_off': 0}
+cvpr2012_1c73bb4e6e0c2123ad80f6409c7b503b
+objects: ['screen']
+frames: [4250]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="13.7355952446" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.67534398353" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions/>
+</temporal>
+
+INSERT: {'screen_action_4250_act_no_mousekeyboard': 100, 'screen_4250_off': 100, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_4250_off_on': 0, 'screen_action_4250_act_mousekeyboard': 0, 'screen_4250_on': 0, 'screen_4250_on_off': 0}
+cvpr2012_db522a17f579f477a82bfd694aad2378
+objects: ['screen']
+frames: [161]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="20.2588089088" fluent="screen" frame="0" new_value="off"/>
+		<fluent_change energy="20.2588089088" fluent="screen" frame="244" new_value="on" old_value="off"/>
+		<fluent_change energy="20.2588089088" fluent="screen" frame="341" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="4.5642737566" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="4.5642737566" fluent="trash_MORE" frame="224" new_value="on" old_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_START" energy="20.2588089088" frame="244"/>
+		<event action="usecomputer_END" energy="20.2588089088" frame="341"/>
+		<event action="throwtrash_END" energy="4.5642737566" frame="224"/>
+	</actions>
+</temporal>
+
+INSERT: {'hash': '1234567890', 'name': 'causalgrammar', 'screen_161_on_off': 0, 'screen_161_off_on': 0, 'screen_action_161_act_mousekeyboard': 0, 'screen_161_on': 0, 'screen_161_off': 100, 'screen_action_161_act_no_mousekeyboard': 100}
+cvpr2012_7d75ba2d50b8b26a665be7c63da6767e
+objects: ['screen']
+frames: [1680]
+<?xml version="1.0" ?>
+<temporal>
+	<fluent_changes>
+		<fluent_change energy="2.8271617566" fluent="door" frame="0" new_value="off"/>
+		<fluent_change energy="2.42169664849" fluent="PHONE_ACTIVE" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="cup_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="13.9229684692" fluent="screen" frame="0" new_value="on"/>
+		<fluent_change energy="13.9229684692" fluent="screen" frame="1700" new_value="off" old_value="on"/>
+		<fluent_change energy="13.9229684692" fluent="screen" frame="1701" new_value="on" old_value="off"/>
+		<fluent_change energy="13.9229684692" fluent="screen" frame="1836" new_value="off" old_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="cup_LESS" frame="0" new_value="off"/>
+		<fluent_change energy="3.00948331339" fluent="thirst" frame="0" new_value="on"/>
+		<fluent_change energy="2.42169664849" fluent="water" frame="0" new_value="off"/>
+		<fluent_change energy="1.91087102473" fluent="trash_MORE" frame="0" new_value="off"/>
+		<fluent_change energy="2.8271617566" fluent="light" frame="0" new_value="on"/>
+		<fluent_change energy="1.91087102473" fluent="TRASH_LESS" frame="0" new_value="off"/>
+	</fluent_changes>
+	<actions>
+		<event action="usecomputer_END" energy="13.9229684692" frame="1700"/>
+		<event action="usecomputer_START" energy="13.9229684692" frame="1701"/>
+		<event action="usecomputer_END" energy="13.9229684692" frame="1836"/>
+	</actions>
+</temporal>
+
+INSERT: {'screen_1680_on': 100, 'hash': '1234567890', 'name': 'causalgrammar', 'screen_1680_off_on': 0, 'screen_action_1680_act_no_mousekeyboard': 100, 'screen_1680_on_off': 0, 'screen_action_1680_act_mousekeyboard': 0, 'screen_1680_off': 0}
+cvpr2012_d1794f505a4a4882558b4e8e698143ba
+skipping screen_9_phone_7_lounge due to an un unknown oject (one of ['phone', 'screen', 'ringer'])
+cvpr2012_1771a1db8c094fc23b4c3f751ea67ee4
+skipping trash_10_phone_19_9404 due to an un unknown oject (one of ['phone', 'trash', 'ringer'])
+cvpr2012_95a4d5f14a784265a6386471ccb82939
+skipping trash_11_screen_56_9404 due to an un unknown oject (one of ['screen', 'trash'])
+cvpr2012_389fe796f2c6ec0e47d0a1638dbad6ba
+skipping trash_2_8145 due to an un unknown oject (one of ['trash'])
+cvpr2012_925d6373dc8e865638057bfeb2de5381
+skipping trash_3_lounge due to an un unknown oject (one of ['trash'])
+cvpr2012_e07570094610f5d62bf39bc7e06793f0
+skipping trash_4_screen_11_lounge due to an un unknown oject (one of ['screen', 'trash'])
+cvpr2012_b845001ae0704139c505762698b8d29a
+skipping trash_7_9406 due to an un unknown oject (one of ['trash'])
+cvpr2012_6e5bd3d6ea21a1c9e434b3778d7a6f31
+skipping water_10_screen_52_9404 due to an un unknown oject (one of ['water', 'screen', 'thirst', 'cup'])
+cvpr2012_a8ec97031055fb5977cb5cfe3a78004c
+skipping water_11_screen_54_9404 due to an un unknown oject (one of ['water', 'screen', 'thirst', 'cup'])
+cvpr2012_06bdd1cb96aa543dad1d96c2d8e52c3d
+skipping water_12_phone_21_screen_59_9404 due to an un unknown oject (one of ['cup', 'ringer', 'screen', 'thirst', 'water', 'phone'])
+cvpr2012_9377585465436faf5f436d0f580f34cb
+skipping water_15_screen_64_9404 due to an un unknown oject (one of ['water', 'screen', 'thirst', 'cup'])
+cvpr2012_c8f8b4c79b752ddf5c3c712025fb51b6
+skipping water_16_screen_66_9404 due to an un unknown oject (one of ['water', 'screen', 'thirst', 'cup'])
+cvpr2012_2a2433f90f96e343a934fbc197b3dbfd
+skipping water_17_9404 due to an un unknown oject (one of ['water', 'thirst', 'cup'])
+cvpr2012_571ead13796d2d52aba8685a5c7a23a8
+skipping water_18_screen_68_9404 due to an un unknown oject (one of ['water', 'screen', 'thirst', 'cup'])
+cvpr2012_e68881805bcdf7945246ac40a408fefa
+skipping water_19_screen_69_9404 due to an un unknown oject (one of ['water', 'screen', 'thirst', 'cup'])
+cvpr2012_6be1880c979bb419562874401c801565
+skipping water_1_8145 due to an un unknown oject (one of ['water', 'thirst', 'cup'])
+cvpr2012_b513e61ed65f386982158e4d83ab569c
+skipping water_2_8145 due to an un unknown oject (one of ['water', 'thirst', 'cup'])
+cvpr2012_4a7d34e2978391c2873338cb18abe42b
+skipping water_4_8145 due to an un unknown oject (one of ['water', 'thirst', 'cup'])
+cvpr2012_9beb3822e82a2f8047891d3caca5ecbc
+skipping water_6_waterstream_5_8145 due to an un unknown oject (one of ['water', 'dispense', 'waterstream', 'thirst', 'cup'])
+cvpr2012_fbbbfca892039d8937b596fbc603b578
+skipping water_9_screen_48_trash_9_9404 due to an un unknown oject (one of ['water', 'screen', 'trash', 'thirst', 'cup'])
+cvpr2012_edb1151e1c529d595bec904a93c4ff07
+skipping waterstream_11_9404 due to an un unknown oject (one of ['dispense', 'thirst', 'waterstream', 'cup'])
+cvpr2012_382aa28725fcbbe28735496b1f823e38
+skipping waterstream_1_8145 due to an un unknown oject (one of ['dispense', 'thirst', 'waterstream', 'cup'])
+cvpr2012_26761d9fe8b4c3ad1c463bfd9592890a
+skipping waterstream_2_water_3_8145 due to an un unknown oject (one of ['water', 'dispense', 'thirst', 'waterstream', 'cup'])
+cvpr2012_f1af920d24a0ab96f15640dfe65fcb2e
+skipping waterstream_3_water_5_8145 due to an un unknown oject (one of ['water', 'dispense', 'thirst', 'waterstream', 'cup'])
+cvpr2012_553356a67825113abf497504f24197f6
+skipping waterstream_4_8145 due to an un unknown oject (one of ['dispense', 'thirst', 'waterstream', 'cup'])
+cvpr2012_41e1916f99ee57ccce14110acd368dd7
+skipping waterstream_7_9404 due to an un unknown oject (one of ['dispense', 'thirst', 'waterstream', 'cup'])
+cvpr2012_39c323cbd2d5721c9f3395e5df3e2e60
+skipping waterstream_8_screen_55_9404 due to an un unknown oject (one of ['dispense', 'screen', 'thirst', 'waterstream', 'cup'])
+COMPLETED: ['door_11_9406', 'door_12_light_2_9406', 'door_13_light_3_9406', 'door_15_9406', 'door_1_8145', 'door_2_8145', 'door_5_8145', 'door_6_8145', 'door_7_8145', 'door_9_8145', 'light_10_9404', 'light_5_9406', 'light_6_9404', 'light_7_9404', 'light_8_screen_50_9404', 'light_9_screen_57_9404', 'screen_10_lounge', 'screen_12_lounge', 'screen_13_lounge', 'screen_15_lounge', 'screen_18_lounge', 'screen_19_lounge', 'screen_1_lounge', 'screen_23_lounge', 'screen_24_lounge', 'screen_25_lounge', 'screen_2_lounge', 'screen_30_9406', 'screen_31_9406', 'screen_32_9406', 'screen_35_9406', 'screen_36_9406', 'screen_37_door_14_light_4_9406', 'screen_38_9406', 'screen_39_9406', 'screen_40_9406', 'screen_41_9406', 'screen_42_9404', 'screen_44_9404', 'screen_46_9404', 'screen_49_9404', 'screen_51_9404', 'screen_58_9404', 'screen_5_lounge', 'screen_61_9404', 'screen_63_9404', 'screen_6_lounge', 'screen_7_lounge', 'screen_8_lounge']
+SKIPPED DUE TO OJECT: ['door_4_trash_1_8145', 'door_8_doorlock_3_8145', 'doorlock_1_door_3_8145', 'doorlock_2_8145', 'phone_13_screen_27_lounge', 'phone_16_9406', 'phone_1_8145', 'phone_20_screen_53_9404', 'phone_24_screen_65_9404', 'phone_25_screen_67_9404', 'phone_2_8145', 'phone_3_8145', 'phone_4_8145', 'screen_14_phone_8_lounge', 'screen_16_phone_9_lounge', 'screen_17_trash_5_lounge', 'screen_21_phone_10_lounge', 'screen_26_phone_12_lounge', 'screen_3_phone_5_lounge', 'screen_45_trash_8_9404', 'screen_47_water_8_phone_18_9404', 'screen_4_phone_6_lounge', 'screen_9_phone_7_lounge', 'trash_10_phone_19_9404', 'trash_11_screen_56_9404', 'trash_2_8145', 'trash_3_lounge', 'trash_4_screen_11_lounge', 'trash_7_9406', 'water_10_screen_52_9404', 'water_11_screen_54_9404', 'water_12_phone_21_screen_59_9404', 'water_15_screen_64_9404', 'water_16_screen_66_9404', 'water_17_9404', 'water_18_screen_68_9404', 'water_19_screen_69_9404', 'water_1_8145', 'water_2_8145', 'water_4_8145', 'water_6_waterstream_5_8145', 'water_9_screen_48_trash_9_9404', 'waterstream_11_9404', 'waterstream_1_8145', 'waterstream_2_water_3_8145', 'waterstream_3_water_5_8145', 'waterstream_4_8145', 'waterstream_7_9404', 'waterstream_8_screen_55_9404']
+SKIPPED DUE TO IMPORT: []

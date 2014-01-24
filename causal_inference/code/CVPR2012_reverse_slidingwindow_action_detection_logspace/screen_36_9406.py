@@ -1,0 +1,12 @@
+temporal_parses = {
+	494: { "usecomputer_START": {"energy": 0.006292, "agent": "uuid1"} },
+	498: { "usecomputer_END": {"energy": 0.006292, "agent": "uuid1"} },
+	499: { "usecomputer_START": {"energy": -0.000000, "agent": "uuid1"} },
+	528: { "usecomputer_END": {"energy": -0.000000, "agent": "uuid1"} },
+	529: { "usecomputer_START": {"energy": 0.000000, "agent": "uuid1"} },
+	558: { "usecomputer_END": {"energy": 0.000000, "agent": "uuid1"} },
+	559: { "usecomputer_START": {"energy": 0.183661, "agent": "uuid1"} },
+	567: { "usecomputer_END": {"energy": 0.183661, "agent": "uuid1"} },
+	607: { "usecomputer_START": {"energy": 0.001810, "agent": "uuid1"} },
+	647: { "usecomputer_END": {"energy": 0.001810, "agent": "uuid1"} },
+ },
