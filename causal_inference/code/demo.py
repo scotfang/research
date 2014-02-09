@@ -2,12 +2,13 @@
 # frames are only reported when a fluent changes, and only for the fluent(s) that changed; fluents are considered to be on or off ("light" is treated as "light_on", and then "light_off" is calculated from that internally, for instance)
 
 import causal_grammar
+from causal_grammar import kZeroProbabilityEnergy
 
 fluent_parses = {
     1:  { "light": .105, "fluent_3": .511, "fluent_4": .916, "fluent_5": 1.61, "fluent_6": .105 },
-    6:  { "light": causal_grammar.kZeroProbabilityEnergy, "fluent_6": causal_grammar.kZeroProbabilityEnergy},
-    16:  { "light": causal_grammar.kZeroProbabilityEnergy, "fluent_4": 1.20},
-    17: { "fluent_3": causal_grammar.kZeroProbabilityEnergy, "fluent_4": 2.30},
+    6:  { "light": kZeroProbabilityEnergy, "fluent_6": kZeroProbabilityEnergy},
+    16:  { "light": kZeroProbabilityEnergy, "fluent_4": 1.20},
+    17: { "fluent_3": kZeroProbabilityEnergy, "fluent_4": 2.30},
     400: { "fluent_5": .223, "light": .105},
 }
 
@@ -16,14 +17,14 @@ fluent_parses = {
 # events have energy and agents
 # it is assumed that the same event /can/ happen multiple times at the same time (multiple people talking on different cell phones, for example)
 temporal_parses = {
-    5:  { "E1_START": {"energy": .105, "agent": ("uuid4")} },
+    5:  { "FLICK_LIGHT_SWITCH": {"energy": .105, "agent": ("uuid4")} },
     6:  { "E1_END": {"energy": .105, "agent": ("uuid4")}, "E5_START": {"energy": 1.20, "agent": ("uuid2") } },
     7:  { "E2_START": {"energy": .511, "agent": ("uuid1") }, "E5_END": {"energy": 1.20, "agent": ("uuid2") } },
     10: { "E3_START": {"energy": .916, "agent": ("uuid3") } },
-    15: { "E1_START": {"energy": .223, "agent": ("uuid9") } },
+    15: { "FLICK_LIGHT_SWITCH": {"energy": .223, "agent": ("uuid9") } },
     19: { "E1_END": {"energy": .223, "agent": ("uuid9") } },
     45: { "E3_END": {"energy": .916, "agent": ("uuid3") } },
-    450: { "E1_START": {"energy": .916, "agent": ("uuid3") } },
+    450: { "FLICK_LIGHT_SWITCH": {"energy": .916, "agent": ("uuid3") } },
     455: { "E1_END": {"energy": .916, "agent": ("uuid3") } },
 }
 
@@ -36,11 +37,11 @@ causal_forest = [
     "children": [
         { "node_type": "and", "probability": .3, "children": [
                 { "node_type": "leaf", "symbol": "light_on", "symbol_type": "prev_fluent" },
-                { "node_type": "leaf", "symbol": "E1_START", "symbol_type": "nonevent", "timeout": 10 },
+                { "node_type": "leaf", "symbol": "FLICK_LIGHT_SWITCH", "symbol_type": "nonevent", "timeout": 10 },
         ]},
         { "node_type": "and", "probability": .7, "children": [
                 { "node_type": "leaf", "symbol_type": "prev_fluent", "symbol": "light_off" },
-                { "node_type": "leaf", "symbol_type": "event", "symbol": "E1_START", "timeout": 10 },
+                { "node_type": "leaf", "symbol_type": "event", "symbol": "FLICK_LIGHT_SWITCH", "timeout": 10 },
             ]
         },
     ],
@@ -51,11 +52,11 @@ causal_forest = [
     "children": [
         { "node_type": "and", "probability": .3, "children": [
                 { "node_type": "leaf", "symbol": "light_off", "symbol_type": "prev_fluent" },
-                { "node_type": "leaf", "symbol": "E1_START", "symbol_type": "nonevent", "timeout": 10 },
+                { "node_type": "leaf", "symbol": "FLICK_LIGHT_SWITCH", "symbol_type": "nonevent", "timeout": 10 },
         ]},
         { "node_type": "and", "probability": .7, "children": [
                 { "node_type": "leaf", "symbol_type": "prev_fluent", "symbol": "light_on" },
-                { "node_type": "leaf", "symbol_type": "event", "symbol": "E1_START", "timeout": 10 },
+                { "node_type": "leaf", "symbol_type": "event", "symbol": "FLICK_LIGHT_SWITCH", "timeout": 10 },
             ]
         },
     ],
