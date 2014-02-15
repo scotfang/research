@@ -51,7 +51,8 @@ class SemiMarkov(object):
         return zip(probs, self.outputFluents)
 
     def __str__(self):
-        return str(self.inputFluent)
+        return "%s\nprobEmit %s" % (self.inputFluent.toString(), 
+                                    str(self.inputFluent.getProbEmit()))
 
     def contains(self, targetFluent):
         """
@@ -88,7 +89,8 @@ class Markov(object):
         return zip(self.imageProbs, self.outputFluents)
 
     def __str__(self):
-        return str(self.inputFluent)
+        return "%s\nprobEmit %s" % (self.inputFluent.toString(), 
+                                    str(self.inputFluent.getProbEmit()))
 
     def contains(self, targetFluent):
         """
@@ -159,95 +161,5 @@ class Graph(digraph):
         for A, B in self.edges():
             # Convert nodes to strings.
             writable.add_edge(str(A), str(B)) 
-
-        return writable
-
-class FluentGraph(digraph):
-    def __init__(self, targetFluents, allTransitions):
-        
-        # Extract all Leaf fluents from targetFluents.
-        leafs = [] 
-        for f in targetFluents:
-            leafs.extend(f.getLeafs())
-        leafs = set(leafs)
-
-        for t in allTransitions:
-            pass
-                
-class CausalGraph(digraph):
-    """
-    A causal forest of all possible: 
-    FluentTree->OrFluentTransition->FluentTree->OrFluentTransition cycles.
-    Represents the Action->Fluent->Action->Fluent cycle concept.
-    
-    All nodes are AndNodes, representing a FluentTree.
-
-    All directed edges go from a single parent FluentTree to one or more
-    child FluentTrees. The edges represent fluent transitions, which are 
-    semantically equivalent to OR nodes.
-
-    Edges weights are OR probabilities. 
-    Edges also have timeWindows for fluentTransitions.
-    All edge weights for a given timeWindow must sum to 1.
-    """
-
-    def __init__(self):
-        super(CausalGraph, self).__init__() #Init base class
-
-    def addFluentNode(self, node):
-        assert type(node) == nodes.FluentTree
-        self.add_node(node)
-
-    def addFluentTransition(self, parentNode, childNodes, childProbs, 
-        timeWindow=None):
-        """
-        A FluentTransition is represented by an OrRelation from a single parent
-        FluentTree to a set of possible child FluentTrees with switching 
-        probabilities summed to one.  This transition must take place in a 
-        timeWindow global to all children.
-
-        Input args:
-            parentNode: Input FluentTree.
-            childNodes: List of Output FluentTrees.
-            childProbs: List of associated probabilties for each childNode.
-            timeWindow: Global timeWindow for transition to take place in.
-        """
-
-        assert type(parentNode) == nodes.FluentTree
-        assert len(childNodes) == len(childProbs)
-        assert sum(childProbs) == 1
-
-        for i, child in enumerate(childNodes):
-            assert type(child) == nodes.FluentTree
-            self.add_edge((parentNode, child), wt=childProbs[i], 
-                          attrs=timeWindowAttrs)
-
-    def toWritable(self):
-        """
-        Create a writable graph of CausalGraph for visualization.
-        
-        Returns:
-            pygraphviz.Agraph() 
-
-        DOT attributes used:
-            -'group' for OR switch nodes
-            -
-        """
-
-        # Make graph dot-writable by converting all fluent nodes to strings. 
-        writable = pgv.AGraph(directed=True)
-        for fluentA, fluentB in self.edges():
-            # Convert nodes to strings.
-            rootA = fluentA.root()
-            strA = rootA.name + ":" + str(rootA.state)  
-            if not writable.has_node(strA):
-                writable.add_node(strA)
-
-            rootB = fluentB.root()
-            strB = rootB.name + ":" + str(rootB.state)  
-            if not writable.has_node(strB):
-                writable.add_node(strB)
-
-            writable.add_edge((strA, strB)) 
 
         return writable

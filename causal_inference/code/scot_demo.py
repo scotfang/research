@@ -4,21 +4,38 @@ import fluent_models as fm
 import transition_models as tm
 from math import exp
 
-f_light = [ fm.Node('light', 'off', probEmit=0.8), 
-            fm.Node('light', 'on', probEmit=0.9) ]
-            
-f_switch = [ fm.Node('touch_lightSwitch', False, probEmit=0.75),
-            fm.Node('touch_lightSwitch', True, probEmit=0.7) ]
+EMIT_LIGHT_OFF = 0.8
+EMIT_LIGHT_ON = 0.9
+f_light = [ fm.Node('light', 'off', probEmit=EMIT_LIGHT_OFF), 
+            fm.Node('light', 'on', probEmit=EMIT_LIGHT_ON) ]
+
+EMIT_SWITCH_FALSE = 0.75 
+EMIT_SWITCH_TRUE = 0.7 
+f_switch = [ fm.Node('touch_lightSwitch', False, probEmit=EMIT_SWITCH_FALSE),
+            fm.Node('touch_lightSwitch', True, probEmit=EMIT_SWITCH_TRUE) ]
 
 ft_switchLight = [ 
     fm.Tree('switch_light', 'off', rootChildren=[f_light[1], f_switch[1]]),   
     fm.Tree('switch_light', 'on', rootChildren=[f_light[0], f_switch[1]]) 
     ]
 
+for i,ft in enumerate(ft_switchLight):
+    print "ft_switchLight[%d] probEmit: %f" % (i, ft.getProbEmit())
+assert ft_switchLight[0].getProbEmit() == EMIT_LIGHT_ON*EMIT_SWITCH_TRUE
+assert ft_switchLight[1].getProbEmit() == EMIT_LIGHT_OFF*EMIT_SWITCH_TRUE
+
 ft_inert = [    
     fm.Tree('inert_light', 'off', rootChildren=[f_light[0], ft_switchLight[0]]),
     fm.Tree('inert_light', 'on', rootChildren=[f_light[1], ft_switchLight[0]])
     ]
+
+for i,ft in enumerate(ft_inert):
+    print "ft_inert[%d] probEmit: %f" % (i, ft.getProbEmit())
+
+assert ft_inert[0].getProbEmit() == f_light[0].getProbEmit() * \
+                                    ft_switchLight[0].getProbEmit()
+assert ft_inert[1].getProbEmit() == f_light[1].getProbEmit() * \
+                                    ft_switchLight[0].getProbEmit()
 
 def f_logisticSwitch(time):
     pInert = 1/(1+exp(-(time-5)))
@@ -68,4 +85,3 @@ for i,c in enumerate(ccp):
     for node in c:
         print '\t\t%s' %  str(node)
 
-    

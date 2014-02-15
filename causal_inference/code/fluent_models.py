@@ -4,6 +4,7 @@
 from pygraph.classes.digraph import digraph     # directed graph
 from pygraph.readwrite import dot
 import pygraphviz as pgv
+from numpy import prod
 
 
 class Node(object):
@@ -16,7 +17,7 @@ class Node(object):
         assert probEmit is None or (probEmit>=0 and probEmit<=1)
         self.name = name
         self.state = state
-        self.probEmit = probEmit 
+        self._probEmit = probEmit 
 
     def sig(self):
         "Node Signature"
@@ -30,12 +31,19 @@ class Node(object):
         else:
             assert False
 
-    def __str__(self):
+    def getProbEmit(self):
+        return self._probEmit
+
+    def toString(self):
+        "String description without including probEmit."
         return "%s:%s" % (str(self.name), str(self.state))
+        
+    def __str__(self):
+        return self.toString() + " Emit:%s" % str(self._probEmit)
 
     def __repr__(self):
-        return "Node(name=%s, state=%s, probEmit=%s)" % \
-               (str(self.name), str(self.state), str(self.probEmit))
+        return "Node(name=%s, state=%s, _probEmit=%s)" % \
+               (str(self.name), str(self.state), str(self._probEmit))
 
         
 class Tree(digraph):
@@ -82,6 +90,28 @@ class Tree(digraph):
                  
         return leafs
 
+    def getProbEmit(self):
+        """
+        Get the probability of emission for this fluent tree. For any tree 
+        that has 'None' as its emission probability we recurse down the tree 
+        until we find emission probabilities for each node. 
+
+        We return the product of the joint emission probabilities, that is we
+        assume detections are independent of each other.
+        """
+         
+        if self.root._probEmit is not None:
+            return self.root._probEmit
+
+        childEmits = []
+        for child in self.neighbors(self.root):
+            p = child.getProbEmit()
+            assert p is not None, "ERROR Found 'None' emission probability for"
+            " child %s in tree %s!" % (str(child), str(self))
+            childEmits.append(p)
+
+        return prod(childEmits)
+
     def toWritable(self):
         """
         Create a writable graph of FluentTree for visualization.
@@ -111,6 +141,10 @@ class Tree(digraph):
             return set(self.sig()) >= set(other.sig())
         else:
             assert False
+    
+    def toString(self):
+        "String description without including probEmit."
+        return self.root.toString()
 
     def __str__(self):
         return str(self.root)
