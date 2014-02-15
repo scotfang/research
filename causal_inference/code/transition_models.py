@@ -50,9 +50,13 @@ class SemiMarkov(object):
         assert len(probs) == len(self.outputFluents) 
         return zip(probs, self.outputFluents)
 
+    def getProbEmit(self):
+        "Get probability of emission (detection) of input fluent." 
+        return self.inputFluent.getProbEmit()
+
     def __str__(self):
         return "%s\nprobEmit %s" % (self.inputFluent.toString(), 
-                                    str(self.inputFluent.getProbEmit()))
+                                    str(self.getProbEmit()))
 
     def contains(self, targetFluent):
         """
@@ -88,9 +92,13 @@ class Markov(object):
         "Return homogenous transition probability."
         return zip(self.imageProbs, self.outputFluents)
 
+    def getProbEmit(self):
+        "Get probability of emission (detection) of input fluent." 
+        return self.inputFluent.getProbEmit()
+
     def __str__(self):
         return "%s\nprobEmit %s" % (self.inputFluent.toString(), 
-                                    str(self.inputFluent.getProbEmit()))
+                                    str(self.getProbEmit()))
 
     def contains(self, targetFluent):
         """
