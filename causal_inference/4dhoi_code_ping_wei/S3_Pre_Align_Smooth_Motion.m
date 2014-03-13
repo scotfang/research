@@ -1,10 +1,11 @@
+function AlgEvent = S3_Align_Smooth_Motion_Events(rawEventFile, ...
+    meanSkeletonFile, outputFile)
 %%%%% S3_Pre_Align_Smooth_Motion
 %%%%% Align the data to the mean skeleton, smooth the data with frames
 %%%%% before and after, and compute the motion vector of each frame.
-clear,clc,tic
 
-load('parameter\meanskel.mat');    %%% load mean skeleton
-load('parameter\Event.mat');       %%% load all skeleton
+load(rawEventFile, 'Event');
+load(meanSkeletonFile, 'meanskel');
 anc = {[2,5,9],[2,3,5],[2,3,9]};   %%% anchor point, whole body, left arm, right arm
 
 for i = 1:size(Event,2)
@@ -20,6 +21,8 @@ for i = 1:size(Event,2)
         Sequence = View(j).Sequence;
         clear AlgSequence
         for s = 1:View(j).SNo
+            disp(['Processing: ', Event(i).Name, ' ', View(j).Name, ' ',...
+                Sequence(s).Name]);
             AlgSequence(s).Name = Sequence(s).Name;
             AlgSequence(s).FNo = Sequence(s).FNo;
             
@@ -27,6 +30,7 @@ for i = 1:size(Event,2)
             
             %%%%% align the skeletons
             clear AlgFrame
+            tic
             for f = 1:Sequence(s).FNo
                 AlgFrame(f).Index = Frame(f).Index;
                 
@@ -66,9 +70,10 @@ for i = 1:size(Event,2)
                     end
                 end                               
             end  
-            disp(['Action_',Event(i).Name,'_View_',View(j).Name,'_Sequence_',Sequence(s).Name,'......Aligned','_TOC_',num2str(toc)]);
+            disp(['     Finished Alignment (', num2str(toc), ' seconds). ']);
             
             %%%%% smooth the skeletons
+            tic
             for f = 1:Sequence(s).FNo
                 %%% smooth whole body skeleton
                 if (~isempty(AlgFrame(f).AlgSkel))
@@ -95,6 +100,7 @@ for i = 1:size(Event,2)
                     AlgFrame(f).SmoothSkel = [];
                 end
                 
+                tic
                 %%% smooth arms
                 if (~isempty(AlgFrame(f).AlgArms))
                     if (f>1)&(f<Sequence(s).FNo)
@@ -120,9 +126,10 @@ for i = 1:size(Event,2)
                     AlgFrame(f).SmoothArms = [];
                 end
                                                
-            end  
-            disp(['Action_',Event(i).Name,'_View_',View(j).Name,'_Sequence_',Sequence(s).Name,'......Smoothed','_TOC_',num2str(toc)]);
-            
+            end
+            disp(['     Finished Smoothing (', num2str(toc), ' seconds). ']);
+
+            tic
             %%%%% compute the motion vector
             for f = 1:Sequence(s).FNo
                 %%% whole body skeleton motion
@@ -158,7 +165,9 @@ for i = 1:size(Event,2)
             end 
             AlgFrame(1).MotionSkel = AlgFrame(2).MotionSkel;
             AlgFrame(1).MotionArms = AlgFrame(2).MotionArms;
-            disp(['Action_',Event(i).Name,'_View_',View(j).Name,'_Sequence_',Sequence(s).Name,'......Motioned','_TOC_',num2str(toc)]);
+            disp(['     Finished Computing Motion Vector (',...
+                num2str(toc), ' seconds). ']);
+
             AlgSequence(s).Frame = AlgFrame;
         end
         AlgView(j).Sequence = AlgSequence;
@@ -166,6 +175,7 @@ for i = 1:size(Event,2)
     AlgEvent(i).View = AlgView;
 end
 
-save('parameter\AlgEvent.mat','AlgEvent');
-
-ElapsedTime = toc
+save(outputFile,'AlgEvent');
+disp(['####Saved Aligned/Smoothed Events with Motion Vectors to "',...
+    outputFile, '" ####']); 
+end

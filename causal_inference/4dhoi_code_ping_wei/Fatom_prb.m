@@ -1,5 +1,6 @@
 %%%%% Fatom_prb.m
-%%%%% compute the probability of each atomic event
+%%%%% compute the probability of each atomic event given a single frame's
+%%%%% data
 
 function atom_prb = Fatom_prb(x,Grammar)
 
@@ -14,4 +15,5 @@ for i = 1:N
 end
 
 atom_prb = atom_prb/sum(atom_prb);
+end
 

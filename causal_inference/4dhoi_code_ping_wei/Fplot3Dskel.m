@@ -40,37 +40,37 @@ plot3(S(19:20,1),S(19:20,2),S(19:20,3),'-r.','LineWidth',lw,'MarkerEdgeColor','b
 
 %axis equal
 %% plot with M(:,4:6)
-% set(gca,'CameraPosition',[100 30 -5000]);
-% set(gca,'CameraUpVector',[0 -1 0]);
-% axis([0 640 0 480]);
+%set(gca,'CameraPosition',[100 30 -5000]);
+%set(gca,'CameraUpVector',[0 -1 0]);
+%axis([0 640 0 480]);
 
 %% plot with M(:,1:3)
 
-% set(gca,'CameraPosition',[0.2 0.4 0]);
-% set(gca,'CameraUpVector',[0 1 0]);
-% axis([-1.0 1.0 -0.75 0.75]);
-% set(gca,'ZTickLabel',[]);
-% grid on
+ set(gca,'CameraPosition',[0.2 0.4 0]);
+ set(gca,'CameraUpVector',[0 1 0]);
+ axis([-1.0 1.0 -0.75 0.75]);
+ set(gca,'ZTickLabel',[]);
+ grid on
 
-% axis([-2 2 -2 2 -2 4]);
+ %axis([-2 2 -2 2 -2 4]);
 
-% himage=findobj('tag','z');
-% set(himage,'visible','off');
-% set(himage,'handlevisibility','off');
+ %himage=findobj('tag','z');
+ %set(himage,'visible','off');
+ %set(himage,'handlevisibility','off');
 
 
-% set(gca,'CameraViewAngleMode','manual')
-% set(gca,'CameraPosition',[146 33 -7482]);
-% set(gca,'CameraTargetMode','manual');
-% set(gca,'CameraTarget',[458 216 2831]);
-% set(gca,'CameraUpVectorMode','manual');
-% set(gca,'CameraUpVector',[0 -1 0]);
-% view(-52,-76);
-% xlabel('x'),ylabel('y'),zlabel('z');
-% view(2,-90) 
+ %set(gca,'CameraViewAngleMode','manual')
+ %set(gca,'CameraPosition',[146 33 -7482]);
+ %set(gca,'CameraTargetMode','manual');
+ %set(gca,'CameraTarget',[458 216 2831]);
+ %set(gca,'CameraUpVectorMode','manual');
+ %set(gca,'CameraUpVector',[0 -1 0]);
+ %view(-52,-76);
+ %xlabel('x'),ylabel('y'),zlabel('z');
+ %view(2,-90) 
 
-% plot(x,y,'--rs','LineWidth',2,...
-%                 'MarkerEdgeColor','k',...
-%                 'MarkerFaceColor','g',...
-%                 'MarkerSize',10)
+ %plot(x,y,'--rs','LineWidth',2,...
+                 %'MarkerEdgeColor','k',...
+                 %'MarkerFaceColor','g',...
+                 %'MarkerSize',10)
 
