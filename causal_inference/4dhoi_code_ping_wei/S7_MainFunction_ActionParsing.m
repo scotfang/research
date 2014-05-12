@@ -90,12 +90,16 @@ for i = 1:size(AlgEvent,2)
                             event_name{sorted_idx(event_i)}, ...
                             num2str(sorted_event_probs(event_i)));
                     end
-                    sk = Frame(f).SmoothSkel((end-19):end,1:3);
-                    %sk(:,3) = 0; %get 2d projection
-                    outputFile = fullfile(dataDir, AlgEvent(i).Name, View(j).Name, Sequence(s).Name, ['frame_', num2str(Frame(f).Index), '_smooth_skeleton.png']);
-                    addpath('utils');
-                    saveSkeletonImage(sk, outputFile);
-                    rmpath('utils');
+                    if (Frame(f).SmoothSkel) 
+                        sk = Frame(f).SmoothSkel((end-19):end,1:3);
+                        %sk(:,3) = 0; %get 2d projection
+                        outputFile = fullfile(dataDir, AlgEvent(i).Name, View(j).Name, Sequence(s).Name, ['frame_', num2str(Frame(f).Index), '_smooth_skeleton.png']);
+                        addpath('utils');
+                        saveSkeletonImage(sk, outputFile);
+                        rmpath('utils');
+                    else
+                        disp(['###WARNING### Frame ', num2str(f), 'has empty smoothed skeleton']);
+                    end
                 end
             end
             if (createdSequenceResultsFile)

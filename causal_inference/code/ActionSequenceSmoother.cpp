@@ -8,6 +8,8 @@
 #include <algorithm>
 using namespace std;
 
+int ACTION_COUNT=7;
+
 struct ActionSequence {
 	ActionSequence(const int seq_len) : energy(0.0f) {
 		actions.reserve(seq_len);
@@ -30,7 +32,7 @@ struct ActionSequence {
 		for (vector<int>::const_iterator iter = actions.begin(); iter != actions.end(); iter++) {
 			ss << ' ' << *iter;
 		}
-		//ss << ", Energy: " << energy << endl;
+		ss << ", Energy: " << energy << endl;
 		return ss.str();
 	}
 
@@ -48,22 +50,26 @@ string GetFullPathName(const string path, const int frame) {
 	return ss.str();
 }
 
-vector<ActionSequence> GetTopActionSequences(const string path, const int begin_frame, const int end_frame, const int beam_width, const float gamma) {
+vector<ActionSequence> GetTopActionSequences(   const string path, 
+                                                const int begin_frame, 
+                                                const int end_frame, 
+                                                const int beam_width, 
+                                                const float gamma) {
 	int seq_len = end_frame - begin_frame + 1;
 	vector<ActionSequence> vas;
 	vas.push_back(ActionSequence(seq_len));
 
-	int action_count = 7;
+	int action_count = ACTION_COUNT;
 	cout << "# " << flush;
 	for (int frame = begin_frame; frame <= end_frame; frame++) {
 		vector<ActionSequence> t_vas;
 		float action_energy;
 		string filename = GetFullPathName(path, frame);
 		cout << "\r" << frame << flush;
-		// cout << "Processing " << filename << endl;
+		 cout << "Processing " << filename << endl;
 		ifstream ifs(filename.c_str());
-		// file may exist but be empty (this also catches file not existing)
-		if (ifs.peek() == ifstream::traits_type::eof()) {
+		if (ifs.peek() == ifstream::traits_type::eof()) { 
+            // file may exist but be empty (this also catches file not existing)
 			for (int action_label = 0; action_label < action_count; action_label++) {
 				action_energy = 1.0/float(action_count); // set agnostic probability level
 				action_energy = - log(action_energy);	// convert it to energy
@@ -73,7 +79,7 @@ vector<ActionSequence> GetTopActionSequences(const string path, const int begin_
 					t_vas.push_back(as);
 				}
 			}
-		} else {
+		} else { // file is not empty
 			for (int action_label = 0; action_label < action_count; action_label++) {
 				ifs >> action_energy;	// read in the action probability
 				action_energy = - log(action_energy);	// convert it to energy

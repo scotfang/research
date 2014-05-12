@@ -13,13 +13,13 @@ for i = 1:size(Event,2)
     AlgEvent(i).VNo = Event(i).VNo;
     
     View = Event(i).View; 
-    clear AlgView
+    AlgView = [];
     for j = 1:Event(i).VNo
         AlgView(j).Name = View(j).Name;
         AlgView(j).SNo = View(j).SNo;
         
         Sequence = View(j).Sequence;
-        clear AlgSequence
+        AlgSequence = [];
         for s = 1:View(j).SNo
             disp(['Processing: ', Event(i).Name, ' ', View(j).Name, ' ',...
                 Sequence(s).Name]);
@@ -29,7 +29,7 @@ for i = 1:size(Event,2)
             Frame = Sequence(s).Frame;
             
             %%%%% align the skeletons
-            clear AlgFrame
+            AlgFrame = [];
             tic
             for f = 1:Sequence(s).FNo
                 AlgFrame(f).Index = Frame(f).Index;

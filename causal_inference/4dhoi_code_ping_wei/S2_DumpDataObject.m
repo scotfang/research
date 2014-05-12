@@ -14,12 +14,10 @@ rmpath('utils');
 for i = 1:size(event_dirs,1)
     
     Event(i).Name = event_dirs(i).name;
-    view_dirs = dir(fullfile(eventsPath, event_dirs(i).name));
+    view_dirs = dir(fullfile(eventsPath, event_dirs(i).name, 'view*'));
     view_dirs = view_dirs(3:end);
-    %view_dirs = event_dirs;
     Event(i).VNo = size(view_dirs,1);
-    %Event(i).VNo = 1;
-    clear View
+    View(:) = [];
     
     for j = 1:size(view_dirs,1)
         View(j).Name = view_dirs(j).name;
@@ -27,23 +25,21 @@ for i = 1:size(event_dirs,1)
         smp_dirs = getDirs(...
             fullfile(eventsPath, event_dirs(i).name, view_dirs(j).name) );
         rmpath('utils');
-        %smp_dirs = view_dirs;
         View(j).SNo = size(smp_dirs,1);
-        %View(j).SNo = 1;
         
-        clear Sequence
+        Sequence(:) = []
         for s = 1:size(smp_dirs,1)
             
             Sequence(s).Name = smp_dirs(s).name;
             sequence.path = fullfile(eventsPath, event_dirs(i).name,...
                 view_dirs(j).name, smp_dirs(s).name);
-            rgb_str = dir(fullfile(sequence.path,'\*_rgb.jpg'));
+            rgb_str = dir(fullfile(sequence.path,'*_rgb.jpg'));
             sequence.frm_count = size(rgb_str,1);
             Sequence(s).FNo = size(rgb_str,1);
             
-            clear Frame
             disp(['Extracting ', num2str(size(rgb_str,1)), ...
-                ' frames from ', sequence.path]);
+                ' frames from ', sequence.path])
+            Frame(:) = [];
             tic;
             for f = 1:size(rgb_str,1)
                 
@@ -53,7 +49,7 @@ for i = 1:size(event_dirs,1)
                 
                 Frame(f).Index = tfName((i_d(1)+1):(i_d(2)-1));
                 skel_dir = dir( fullfile(sequence.path, ...
-                    ['\frame_', num2str(frame.index), '_', '*skeletons.txt']));
+                    ['frame_', num2str(frame.index), '_', '*skeletons.txt']));
                             
                 
                 Frame(f).Skeleton = [];
@@ -65,13 +61,13 @@ for i = 1:size(event_dirs,1)
                         sk = tskel((end-19):end,1:3);
                         Frame(f).Skeleton = [Frame(f).Skeleton; sk];
                                            
-                        outputFile = fullfile(sequence.path, ...
-                            strrep(skelFileName, 'skeletons.txt', 'raw_skeleton.png'));
-                        outputFile = regexprep(outputFile, 'tc_[0-9]+_', '');
+                        %outputFile = fullfile(sequence.path, ...
+                            %strrep(skelFileName, 'skeletons.txt', 'raw_skeleton.png'));
+                        %outputFile = regexprep(outputFile, 'tc_[0-9]+_', '');
                         
-                        addpath('utils');
-                        saveSkeletonImage(sk, outputFile); 
-                        rmpath('utils')
+                        %addpath('utils');
+                        %saveSkeletonImage(sk, outputFile); 
+                        %rmpath('utils')
                         
                     end
                 end

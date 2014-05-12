@@ -1,0 +1,12 @@
+I've re-written Amy's code using an equivalent semi-hidden markov model
+formulation. My code is contained in fluent_models.py, transition_models.py, 
+and scot_demo.py.  You should read the code in that order.
+
+For inference I still need to add a viterbi algorithm, which should be 
+straightforward to implement, it is same formulation for an HMM except we 
+must also account for the state duration of each event which will affect our
+transition probability function.
+
+Scot Fang
+scotfang@gmail.com
+5/12/2014
